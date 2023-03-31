@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+#app {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background-image: url(/assets/images/VHBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: luminosity;
+    background-color: rgba(0, 255, 255, 0.9);
+    background-attachment: fixed;
+    background-position: center;
+}
+h1, h2{
+    text-align: center;
+    color: white;
+}
+#section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#section1, #section2{
+    height: 50%;
+}
+
+#bottom {
+    height: 84px;
+    font-size: 32px;
+    background-color: #393D47;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid white;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, .2);
+    align-items: center;
+
+}
+
+#bottom i:nth-of-type(1) {
+    color: red;
+}
+
+#bottom i:nth-of-type(2) {
+    color: green;
+}
+
+#bottom i:nth-of-type(3) {
+    color: blueviolet;
+}
+
+#bottom i:nth-of-type(4) {
+    color: dodgerblue;
+}
+
+#vhLogo {
+    max-height: 74px;
+}
+
+.navbar, #navvy{
+    height: 84px;
+}
+#navvy {
+    background-color: deeppink;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    position: fixed;
+    top: 0;
+}
+
+.about {
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#navbarTogglerDemo03 {
+    background-color: yellow;
+}
+
+@media(max-width: 991px) {
+    #navbarTogglerDemo03 {
+        position: fixed;
+        width: 100%;
+        top: 84px;
+    }
+    .navbar-brand{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #vhLogo{
+        margin-top: -40px;
+    }
+}
+
+@media (min-width: 991px) {
+    #navbarTogglerDemo03 {
+        background-color: transparent;
+    }
+}
+
+@media (min-width: 992px) {
+    #nav-ul>li>a {
+        color: white;
+    }
+}
