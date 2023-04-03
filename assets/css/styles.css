@@ -11,21 +11,91 @@
     background-attachment: fixed;
     background-position: center;
 }
-h1, h2{
-    text-align: center;
-    color: white;
+
+h1 {
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-shadow: -2px -2px 0em #000;
+    font-size: 84px;
 }
-#section2{
+
+h2 {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: -2px -2px 0em #000;
+    font-size: 64px;
+    color: white;
+    font-weight: 100;
+}
+
+#section2>iframe {
+    height: 40vh
+}
+
+#section2 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#section1, #section2{
-    height: 50%;
+
+#section1,
+#section2 {
+    height: 90vh;
+}
+
+#section1>a {
+
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: unset;
+    cursor: pointer;
+    font-size: 84px;
+    text-shadow: 3px -1px 0em #000;
+
+}
+
+.arrow1,
+.arrow2,
+.arrow3 {
+    border: 3px solid white;
+    border-left: 0;
+    border-top: 0;
+    height: 64px;
+    transform: rotate(45deg);
+    width: 64px;
+}
+
+.arrow1 {
+    animation: fadeOut 3s 1s infinite;
+}
+
+.arrow2 {
+    animation: fadeOut 3s 2s infinite;
+}
+
+.arrow3 {
+    animation: fadeOut 3s 3s infinite;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 #bottom {
-    height: 84px;
+    height: 10vh;
     font-size: 32px;
     background-color: #393D47;
     display: flex;
@@ -56,9 +126,11 @@ h1, h2{
     max-height: 74px;
 }
 
-.navbar, #navvy{
-    height: 84px;
+.navbar,
+#navvy {
+    height: 10vh;
 }
+
 #navvy {
     background-color: deeppink;
     color: white;
@@ -67,9 +139,15 @@ h1, h2{
     top: 0;
 }
 
-.about {
+#nav-ul {
+    display: flex;
+    align-items: center;
+}
+
+div#about.container {
+    height: 50%;
+    overflow: auto;
     color: white;
-    background: rgba(0, 0, 0, 0.3);
 }
 
 #navbarTogglerDemo03 {
@@ -80,14 +158,16 @@ h1, h2{
     #navbarTogglerDemo03 {
         position: fixed;
         width: 100%;
-        top: 84px;
+        top: 10vh;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    #vhLogo{
+
+    #vhLogo {
         margin-top: -40px;
     }
 }
