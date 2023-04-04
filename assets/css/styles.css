@@ -3,7 +3,6 @@
 #app {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    background-image: url(/assets/images/VHBackground.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: luminosity;
@@ -29,7 +28,23 @@ h2 {
     text-shadow: -2px -2px 0em #000;
     font-size: 64px;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
+}
+
+#navbarTogglerDemo03 {
+    background-image: linear-gradient(-45deg, yellow 25%, black 25%, black 50%, yellow 50%, yellow 75%, black 75%, black 100%);
+    background-repeat: repeat;
+}
+
+a.nav-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #section2>iframe {
@@ -56,9 +71,7 @@ h2 {
     justify-content: center;
     width: unset;
     cursor: pointer;
-    font-size: 84px;
-    text-shadow: 3px -1px 0em #000;
-
+    animation: bounce-fade 1s ease infinite;
 }
 
 .arrow1,
@@ -67,32 +80,29 @@ h2 {
     border: 3px solid white;
     border-left: 0;
     border-top: 0;
-    height: 64px;
+    height: 32px;
     transform: rotate(45deg);
-    width: 64px;
+    width: 32px;
 }
 
-.arrow1 {
-    animation: fadeOut 3s 1s infinite;
-}
 
-.arrow2 {
-    animation: fadeOut 3s 2s infinite;
-}
+@keyframes bounce-fade {
 
-.arrow3 {
-    animation: fadeOut 3s 3s infinite;
-}
-
-@keyframes fadeOut {
-    0% {
+    0%,
+    100% {
+        transform: translateY(0);
         opacity: 1;
     }
 
-    100% {
-        opacity: 0;
+    50% {
+        transform: translateY(-20px);
+        opacity: 0.5;
     }
 }
+
+
+
+
 
 #bottom {
     height: 10vh;
@@ -122,13 +132,11 @@ h2 {
     color: dodgerblue;
 }
 
-#vhLogo {
-    max-height: 74px;
-}
 
 .navbar,
 #navvy {
     height: 10vh;
+    z-index: 3;
 }
 
 #navvy {
@@ -150,35 +158,52 @@ div#about.container {
     color: white;
 }
 
-#navbarTogglerDemo03 {
-    background-color: yellow;
+
+
+@media(min-width: 576px) {
+
+    .arrow1,
+    .arrow2,
+    .arrow3 {
+        height: 48px;
+        width: 48px;
+    }
+}
+
+@media(min-width: 768px) {
+
+    .arrow1,
+    .arrow2,
+    .arrow3 {
+        height: 64px;
+        width: 64px;
+    }
 }
 
 @media(max-width: 991px) {
-    #navbarTogglerDemo03 {
-        position: fixed;
-        width: 100%;
-        top: 10vh;
-    }
-
     .navbar-brand {
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
-    #vhLogo {
-        margin-top: -40px;
+    #navbarTogglerDemo03 {
+        position: fixed;
+        width: 100%;
+        top: 10vh;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    }
+    #nav-ul > li > a{
+        color: white;
+        mix-blend-mode: difference;
     }
 }
 
 @media (min-width: 991px) {
     #navbarTogglerDemo03 {
-        background-color: transparent;
+        background: transparent;
     }
-}
 
-@media (min-width: 992px) {
     #nav-ul>li>a {
         color: white;
     }
