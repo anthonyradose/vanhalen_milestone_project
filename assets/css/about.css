@@ -4,28 +4,37 @@
 #app {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    /* background-image: url("../images/red_stripes.jpg"); */
-    background-image: url("../images/van-halen.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     background-color: cyan;
-    background-blend-mode: luminosity;
 }
 
 #about-h1 {
-    height: 45vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     text-shadow: -2px -2px 0em #000;
     font-size: 84px;
     text-align: center;
-    align-items: flex-end;
+    align-items: center;
     font-weight: 300;
+    background-color: cyan;
+    color: white;
+    margin: 0;
+    padding: 10%;
 }
-
-#about-div {
+.card{
+    height: 100%;
+    overflow: auto;
+    border-radius: 0;
+    border: none;
+}
+.card-body{
+    background: lightslategrey;
+    color: white;
+}
+.card-img-top{
+ border-radius: 0;
+}
+/* #about-div {
     width: 90%;
     height: auto;
     text-align: center;
@@ -34,10 +43,14 @@
     font-weight: normal;
     font-size: 1.1rem;
     background: rgba(0, 0, 0, 0.5);
-}
+    background: url(../images/van-halen.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
 
-h2 {
-    height: 40vh;
+/* h2 {
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +58,7 @@ h2 {
     font-size: 64px;
     color: white;
     font-weight: 300;
-}
+} */
 
 #navbarTogglerDemo03 {
     background-image: linear-gradient(-45deg, yellow 25%, black 25%, black 50%, yellow 50%, yellow 75%, black 75%, black 100%);
@@ -64,6 +77,10 @@ a.nav-link:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 

@@ -4,40 +4,11 @@
 #app {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    /* background-image: url("../images/red_stripes.jpg"); */
-    background-image: url("../images/vh2album.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     background-color: cyan;
-    background-blend-mode: luminosity;
 }
 
-#about-h1 {
-    height: 45vh;
-    display: flex;
-    justify-content: center;
-    text-shadow: -2px -2px 0em #000;
-    font-size: 84px;
-    text-align: center;
-    align-items: flex-end;
-    font-weight: 300;
-}
-
-#about-div {
-    width: 90%;
-    height: auto;
-    text-align: center;
-    height: 45vh;
-    overflow: auto;
-    font-weight: normal;
-    font-size: 1.1rem;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-h2 {
-    height: 40vh;
+#news-h1 {
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,6 +16,30 @@ h2 {
     font-size: 64px;
     color: white;
     font-weight: 300;
+    text-align: center;
+    font-family: lato;
+    padding: 10%;
+}
+.card{
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+    border: none;
+    margin: 0;
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-content: center;
+    background: cyan;
+    align-items: center;
+}
+.card-img-top{
+    width: 70%;
+}
+.card-body{
+    background: lightslategrey;
+    color: white;
+    width: 70%;
 }
 
 #navbarTogglerDemo03 {
@@ -64,6 +59,8 @@ a.nav-link:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
+    max-width: 100%;
 }
 
 
