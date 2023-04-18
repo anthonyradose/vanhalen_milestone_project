@@ -4,7 +4,6 @@
 #app {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    background-color: cyan;
 }
 
 #about-h1 {
@@ -16,24 +15,29 @@
     text-align: center;
     align-items: center;
     font-weight: 300;
-    background-color: cyan;
     color: white;
     margin: 0;
     padding: 10%;
 }
-.card{
+
+.card {
     height: 100%;
     overflow: auto;
     border-radius: 0;
     border: none;
+    background: linear-gradient(to top left, white 50%, cyan 50%);
+    background-size: 100% 100%;
 }
-.card-body{
+
+.card-body {
     background: lightslategrey;
     color: white;
 }
-.card-img-top{
- border-radius: 0;
+
+.card-img-top {
+    border-radius: 0;
 }
+
 /* #about-div {
     width: 90%;
     height: auto;
@@ -136,6 +140,8 @@ a.nav-link:hover {
 #nav-ul {
     display: flex;
     align-items: center;
+    padding: 1em;
+    justify-content: space-evenly;
 }
 
 

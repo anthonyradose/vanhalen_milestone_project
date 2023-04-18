@@ -4,7 +4,12 @@
 #app {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    background-color: cyan;
+  
+        width: 100%;
+        max-width: 100%;
+
+
+
 }
 
 #news-h1 {
@@ -30,8 +35,9 @@
     max-width: 100%;
     flex-direction: column;
     align-content: center;
-    background: cyan;
     align-items: center;
+    background: linear-gradient(to top left, white 50%, cyan 50%);
+    background-size: 100% 100%;
 }
 .card-img-top{
     width: 70%;
@@ -116,6 +122,8 @@ a.nav-link:hover {
 #nav-ul {
     display: flex;
     align-items: center;
+    padding: 1em;
+    justify-content: space-evenly;
 }
 
 
