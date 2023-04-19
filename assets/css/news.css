@@ -4,9 +4,9 @@
 #app {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-  
-        width: 100%;
-        max-width: 100%;
+
+    width: 100%;
+    max-width: 100%;
 
 
 
@@ -25,7 +25,8 @@
     font-family: lato;
     padding: 10%;
 }
-.card{
+
+.card {
     height: 100%;
     overflow: auto;
     width: 100%;
@@ -39,13 +40,17 @@
     background: linear-gradient(to top left, white 50%, cyan 50%);
     background-size: 100% 100%;
 }
-.card-img-top{
+
+.card-img-top {
     width: 70%;
 }
-.card-body{
+
+.card-body {
     background: lightslategrey;
     color: white;
     width: 70%;
+    padding: 3em;
+    margin-bottom: 3em;
 }
 
 #navbarTogglerDemo03 {
@@ -71,7 +76,14 @@ a.nav-link:hover {
 
 
 
+#home-mobile {
+    text-shadow: -1px -1px 0em #000;
+    font-size: 2em;
+}
 
+.nav-link {
+    text-shadow: -1px -1px 0em #000;
+}
 
 
 

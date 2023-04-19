@@ -32,6 +32,7 @@
 .card-body {
     background: lightslategrey;
     color: white;
+    padding: 3em;
 }
 
 .card-img-top {
@@ -174,6 +175,15 @@ div#about.container {
     #nav-ul>li>a {
         color: white;
         mix-blend-mode: difference;
+        text-shadow: -1px -1px 0em #000;
+    }
+    #home-mobile {
+        text-shadow: -1px -1px 0em #000;
+        font-size: 2em;
+    }
+    
+    .nav-link {
+        text-shadow: -1px -1px 0em #000;
     }
 
     #home-lg {
@@ -188,6 +198,7 @@ div#about.container {
 
     #nav-ul>li>a {
         color: white;
+        text-shadow: -1px -1px 0em #000;
     }
 
     #about-div {

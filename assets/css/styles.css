@@ -50,7 +50,9 @@ a.nav-link:hover {
 }
 
 #section2>iframe {
-    height: 40vh
+    height: 40vh;
+    border: 7px solid #ffcc33;
+    border-radius: 20px;
 }
 
 #section2 {
@@ -107,7 +109,7 @@ a.nav-link:hover {
 #newSingle {
     border: 3px solid white;
     border-radius: 8px;
-    width: 100%;
+    width: 70%;
 }
 
 
@@ -168,12 +170,13 @@ a.nav-link:hover {
 @media(min-width: 576px) {}
 
 @media(min-width: 768px) {
-
-
     #newSingle {
-        width: 70%;
+        width: 60%;
     }
-    .arrow1, .arrow2, .arrow3{
+
+    .arrow1,
+    .arrow2,
+    .arrow3 {
         height: 48px;
         width: 48px;
     }
@@ -216,8 +219,9 @@ a.nav-link:hover {
         width: 50%;
     }
 }
-@media(min-width: 992px) and (max-width: 1200px){
-    #vhLogo{
+
+@media(min-width: 992px) and (max-width: 1200px) {
+    #vhLogo {
         height: 60vh;
     }
 }
@@ -236,6 +240,10 @@ a.nav-link:hover {
 
     #vhLogo {
         max-width: 70%;
+    }
+
+    #arrow-container {
+        margin-bottom: 3em;
     }
 }
 
