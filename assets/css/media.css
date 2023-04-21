@@ -30,7 +30,7 @@ h2 {
 
 #carousel-imgs,
 #carousel-videos {
-    width: 50%;
+    width: 80%;
 }
 
 #carousel-imgs>div.carousel-inner img,
@@ -99,13 +99,13 @@ a.nav-link:hover {
 
 @media(min-width: 576px) {
 
-    #carousel-imgs>div.carousel-inner img,
-    #carousel-videos>div.carousel-inner iframe {
-        height: 400px;
-    }
+
 }
 
-@media(min-width: 768px) {}
+@media(min-width: 768px) {    #carousel-imgs>div.carousel-inner img,
+    #carousel-videos>div.carousel-inner iframe {
+        height: 400px;
+    }}
 
 @media(max-width: 991px) {
     .navbar-brand {
@@ -155,6 +155,11 @@ a.nav-link:hover {
         flex-direction: row;
         align-items: normal;
     }
+    #carousel-imgs,
+#carousel-videos {
+    width: 50%;
+}
+
 }
 
 @media (min-width: 1200px) {
