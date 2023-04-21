@@ -113,8 +113,8 @@ tr .continent-td{
 #nav-ul {
     display: flex;
     align-items: center;
-    padding: 1em;
     justify-content: space-evenly;
+    font-size: 1.1rem;
 }
 
 @media(min-width: 576px) {}
