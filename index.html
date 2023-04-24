@@ -8,6 +8,9 @@
   <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="./assets/css/styles.css" rel="stylesheet">
   <title>Bootstrap Example</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
@@ -20,7 +23,8 @@
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid p-0" id="navvy">
       <div class="nav-item m-4 d-lg-none">
-        <a class="nav-link" id="home-mobile" aria-current="page" href="#"><i class="bi bi-house"></i></a>
+        <a class="nav-link" id="home-mobile" aria-current="page" href="#"><i class="bi bi-house"
+            id="home-mobile-icon"></i></a>
       </div>
       <button class="navbar-toggler m-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
         aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,22 +34,40 @@
         <ul id="nav-ul" class="navbar-nav me-auto mb-2 mb-lg-0 m-auto p-4 w-100
           ">
           <li class="nav-item">
-            <a class="nav-link" id="home-lg" href="#">HOME</a>
+            <a class="nav-link align-items-baseline" id="home-lg" href="index.html">
+              <i class="bi bi-house me-2" id="house-lg"></i>
+              <span>HOME</span>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="news.html">NEWS</a>
+            <a class="nav-link d-flex align-items-baseline" href="news.html">
+              <i class="bi bi-megaphone me-2"></i>
+              <span>NEWS</span>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="tour.html">TOUR</a>
+            <a class="nav-link d-flex align-items-baseline" href="tour.html">
+              <i class="bi bi-globe me-2"></i>
+              <span>TOUR</span>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="media.html">MEDIA</a>
+            <a class="nav-link d-flex align-items-baseline" href="media.html">
+              <i class="bi bi-camera-reels me-2"></i>
+              <span>MEDIA</span>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">ABOUT</a>
+            <a class="nav-link d-flex align-items-baseline" href="about.html">
+              <svg id="guitar" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="24" height="24" x="0" y="0" viewBox="0 0 60 60" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="m17.108 38.474 4.829 4.89 1.709-1.727-4.84-4.903zM47.845 14.054l-1.755-1.775-25.065 23.855 3.23 3.265zM57.913 3.732l-1.631-1.649a.274.274 0 0 0-.351-.035l-7.87 5.306a.792.792 0 0 0-.332.5l-.533 2.7 2.365 2.393 2.651-.537a.759.759 0 0 0 .49-.333l5.247-7.96a.307.307 0 0 0-.036-.385z" fill="#ffffff" data-original="#000000"></path><path d="M17.154 58c1.771 0 3.387-.8 5.088-2.521a8.485 8.485 0 0 0 2.2-4.005 9.378 9.378 0 0 1 2.384-4.358 10.4 10.4 0 0 1 4.529-2.569 8.321 8.321 0 0 0 3.741-2.08 5.113 5.113 0 0 0 1.689-4.018.911.911 0 0 0-.265-.577l-.054-.046a.914.914 0 0 0-1.264-.069c-2.151 1.765-4.3 1.852-5.887.236a5.006 5.006 0 0 1-.484-.579l-3.305 3.556a2.006 2.006 0 0 1-.459 2.073l-1.72 1.739a1.965 1.965 0 0 1-1.409.59 1.969 1.969 0 0 1-1.411-.59l-4.839-4.893a2.015 2.015 0 0 1 0-2.822l1.721-1.739a2.025 2.025 0 0 1 2.049-.462l6.342-6.038a4.958 4.958 0 0 1-.439-.391 3.77 3.77 0 0 1-1.134-2.737c.021-2.092 1.649-3.98 2.618-4.921a1.374 1.374 0 0 0 .436-.988 1.324 1.324 0 0 0-1.938-1.187 11.471 11.471 0 0 0-2.594 2.035 18.825 18.825 0 0 0-2.931 4.561 25.663 25.663 0 0 1-4.426 6.6 14.2 14.2 0 0 1-6.713 3.517 9.449 9.449 0 0 0-4.313 2.056c-5.752 5.794.613 12.23 3.671 15.322C11.521 56.214 14.588 58 17.154 58z" fill="#ffffff" data-original="#000000"></path></g></svg>
+              <span>ABOUT</span>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">CONTACT</a>
+            <a class="nav-link d-flex align-items-baseline" href="contact.html">
+              <i class="bi bi-envelope me-2"></i>
+              <span>CONTACT</span>
+            </a>
           </li>
         </ul>
       </div>
@@ -63,16 +85,16 @@
     <section class="container p-4" id="section2">
       <h2>NEW SINGLE</h2>
       <iframe src="https://www.youtube.com/embed/llfjDUB66Z4"
-        title="Van Halen - Dance The Night Away (Official Music Video)" 
+        title="Van Halen - Dance The Night Away (Official Music Video)"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen id="newSingle"></iframe>
     </section>
   </main>
   <footer id="bottom">
-    <i class="bi bi-youtube"></i>
-    <i class="bi bi-spotify"></i>
-    <i class="bi bi-instagram"></i>
-    <i class="bi bi-facebook"></i>
+    <i class="bi bi-youtube footer-icons"></i>
+    <i class="bi bi-spotify footer-icons"></i>
+    <i class="bi bi-instagram footer-icons"></i>
+    <i class="bi bi-facebook footer-icons"></i>
   </footer>
 
   <!-- End Example Code -->
