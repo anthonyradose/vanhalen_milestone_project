@@ -9,8 +9,6 @@ body {
     margin-bottom: 3em;
 }
 
-
-
 #app {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -39,7 +37,23 @@ h2 {
     background-repeat: repeat;
 }
 
-a.nav-link:hover {
+
+
+.nav-link:hover .bi,
+.nav-link:hover #guitar,
+.nav-link:hover #home-mobile-icon,
+.nav-link:hover #house-mobile-icon,
+.nav-link:hover #media-icon,
+.nav-link:hover #about-icon,
+.nav-link:hover #merch-icon {
+    filter: brightness(79%);
+}
+
+svg#media-icon {
+    margin-right: 0.5rem;
+}
+
+.nav-link:hover span {
     text-decoration: underline;
     text-underline-offset: 8px;
 }
@@ -49,9 +63,25 @@ a.nav-link:hover {
     font-size: 2em;
 }
 
-.nav-link {
+
+.nav-link>span {
     text-shadow: -1px -1px 0em #000;
 }
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.bi {
+    display: flex;
+}
+#home-mobile {
+    text-shadow: -1px -1px 0em #000;
+    font-size: 2em;
+}
+
+s
 
 #section1 {
     display: flex;
