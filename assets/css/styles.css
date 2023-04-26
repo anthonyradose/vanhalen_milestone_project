@@ -11,7 +11,6 @@
     background-position: center;
 }
 
-
 h2 {
     height: 40vh;
     display: flex;
@@ -50,14 +49,13 @@ svg#media-icon {
     text-underline-offset: 8px;
 }
 
-#home-mobile {
-    text-shadow: -1px -1px 0em #000;
-    font-size: 2em;
+#house-mobile-icon {
+    font-size: 1.3rem;
 }
-
 
 .nav-link>span {
     text-shadow: -1px -1px 0em #000;
+    font-size: 1.2rem;
 }
 
 .nav-item {
@@ -142,7 +140,7 @@ svg#media-icon {
 
 #bottom {
     height: 10vh;
-    font-size: 32px;
+    font-size: 2rem;
     background-color: #393D47;
     display: flex;
     justify-content: space-evenly;
@@ -236,12 +234,9 @@ svg#media-icon {
         color: white;
         mix-blend-mode: normal;
     }
-
     svg#house-mobile-icon:hover {
         filter: brightness(79%);
     }
-
-
     #home-lg,
     #house-lg {
         display: none;
@@ -265,6 +260,10 @@ svg#media-icon {
     #home-lg {
         display: flex;
     }
+#home-mobile-icon{
+    font-size: 1.3rem;
+}
+
 }
 
 @media(min-width: 992px) and (max-width: 1200px) {

@@ -39,18 +39,40 @@ h2 {
     background-repeat: repeat;
 }
 
-a.nav-link:hover {
+.nav-link:hover .bi,
+.nav-link:hover #guitar,
+.nav-link:hover #home-mobile-icon,
+.nav-link:hover #media-icon,
+.nav-link:hover #about-icon,
+.nav-link:hover #merch-icon {
+    filter: brightness(79%);
+}
+
+svg#media-icon {
+    margin-right: 0.5rem;
+}
+
+.nav-link:hover span {
     text-decoration: underline;
     text-underline-offset: 8px;
 }
 
-#home-mobile {
-    text-shadow: -1px -1px 0em #000;
-    font-size: 2em;
+#house-mobile-icon {
+    font-size: 1.3rem;
 }
 
-.nav-link {
+.nav-link>span {
     text-shadow: -1px -1px 0em #000;
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.bi {
+    display: flex;
 }
 
 #section1 {
@@ -62,10 +84,11 @@ a.nav-link:hover {
 }
 
 
-tr .continent-td{
+tr .continent-td {
     background-color: yellow;
     text-align: center;
 }
+
 #bottom {
     height: 10vh;
     font-size: 32px;
@@ -135,12 +158,23 @@ tr .continent-td{
         box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
     }
 
-    #nav-ul>li>a {
+    #nav-ul>li>a,
+    .bi {
         color: white;
         mix-blend-mode: difference;
     }
 
-    #home-lg {
+    #home-mobile-icon {
+        color: white;
+        mix-blend-mode: normal;
+    }
+
+    svg#house-mobile-icon:hover {
+        filter: brightness(79%);
+    }
+
+    #home-lg,
+    #house-lg {
         display: none;
     }
 }
@@ -152,6 +186,14 @@ tr .continent-td{
 
     #nav-ul>li>a {
         color: white;
+    }
+
+    #home-lg {
+        display: flex;
+    }
+
+    #home-mobile-icon {
+        font-size: 1.3rem;
     }
 }
 
