@@ -8,7 +8,7 @@
   <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
-  <link href="./assets/css/contact.css" rel="stylesheet">
+  <link href="./assets/css/music.css" rel="stylesheet">
   <title>Bootstrap Example</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -56,7 +56,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link d-flex align-items-baseline" href="music.html">
+            <a class="nav-link d-flex align-items-baseline" href="#">
               <svg id="guitar" xmlns="http://www.w3.org/2000/svg" version="1.1"
                 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1em" height="1em"
                 x="0" y="0" viewBox="0 0 512 512" style="margin-right: 0.5rem;" xml:space="preserve">
@@ -133,7 +133,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link d-flex align-items-baseline" href="#">
+            <a class="nav-link d-flex align-items-baseline" href="contact.html">
               <i class="bi bi-envelope me-2"></i>
               <span>CONTACT</span>
             </a>
@@ -143,55 +143,81 @@
     </div>
   </nav>
   <main id="main">
-    <section class="container p-4">
-      <div class="container">
-        <h2>Ticket Purchase Form</h2>
-        <form method="post" action="process_form.php">
-          <div class="form-group">
-            <label for="name">Full Name:</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required>
-            <div class="invalid-feedback">
-              Please enter your name.
+    <div class="container" id="album1-container">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_episode/1347175/1347175-1605858081294-19a96ff511171.jpg"
+            class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h2>Album Title</h2>
+          <ul>
+            <li>Song 1</li>
+            <li>Song 2</li>
+            <li>Song 3</li>
+            <li>Song 4</li>
+            <li>Song 5</li>
+            <li>Song 6</li>
+            <li>Song 7</li>
+            <li>Song 8</li>
+            <li>Song 9</li>
+            <li>Song 10</li>
+          </ul>
+          <audio controls>
+            <source src="path/to/song.mp3" type="audio/mpeg">
+          </audio>
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                <a href="path/to/purchase">Purchase vinyl</a>
+              </p>
             </div>
           </div>
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address"
-              required>
-            <div class="invalid-feedback">
-              Please enter a valid email address.
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="phone">Phone Number:</label>
-            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number"
-              required pattern="[0-9]{10}">
-            <div class="invalid-feedback">
-              Please enter a valid 10-digit phone number.
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="tickets">Number of Tickets:</label>
-            <input type="number" class="form-control" id="tickets" name="tickets"
-              placeholder="Enter the number of tickets you wish to purchase" required min="1">
-            <div class="invalid-feedback">
-              Please enter a number greater than zero.
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="special-requests">Special Requests:</label>
-            <textarea class="form-control" id="special-requests" name="special-requests" rows="3"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Buy Tickets</button>
-        </form>
+        </div>
+      </div>
+    </div>
 
-    </section>
+    <div class="container" id="album2-container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://pbs.twimg.com/media/Fr5k0U9X0AA0ySy?format=jpg&name=large" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <h2>Album Title</h2>
+          <ul>
+            <li>Song 1</li>
+            <li>Song 2</li>
+            <li>Song 3</li>
+            <li>Song 4</li>
+            <li>Song 5</li>
+            <li>Song 6</li>
+            <li>Song 7</li>
+            <li>Song 8</li>
+            <li>Song 9</li>
+            <li>Song 10</li>
+          </ul>
+          <audio controls>
+            <source src="path/to/song.mp3" type="audio/mpeg">
+          </audio>
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                <a href="path/to/purchase">Purchase vinyl</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </main>
   <footer id="bottom">
-    <i class="bi bi-youtube"></i>
-    <i class="bi bi-spotify"></i>
-    <i class="bi bi-instagram"></i>
-    <i class="bi bi-facebook"></i>
+    <i class="bi bi-youtube footer-icons"></i>
+    <i class="bi bi-spotify footer-icons"></i>
+    <i class="bi bi-instagram footer-icons"></i>
+    <i class="bi bi-facebook footer-icons"></i>
   </footer>
 </body>
 
