@@ -4,12 +4,9 @@
 #app {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    background-color: cyan;
 }
 
-#main {
-    background: linear-gradient(to top left, white 50%, cyan 50%);
-}
+#main {}
 
 #about-h1 {
     height: 30vh;
@@ -23,6 +20,27 @@
     margin: 0;
     padding: 10%;
 }
+
+#vhalen-div {
+    background: linear-gradient(to top left, white 50%, cyan 50%);
+}
+
+#dave-div {
+    background: linear-gradient(to top right, white 50%, lightslategrey 50%);
+}
+
+#eddie-div {
+    background: linear-gradient(to top left, white 50%, #FFD700 50%);
+}
+
+#alex-div {
+    background: linear-gradient(to top right, white 50%, black 50%);
+}
+
+#michael-div {
+    background: linear-gradient(to top left, white 50%, #002F6C 50%);
+}
+
 
 .card {
     height: 100%;
@@ -99,7 +117,7 @@ svg#media-icon {
     padding: 0;
 }
 
-#vhalen-div{
+#vhalen-div {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -216,6 +234,7 @@ div#about.container {
     #navbarTogglerDemo03 {
         background: transparent;
     }
+
     #nav-ul>li>a {
         color: white;
     }
@@ -238,7 +257,10 @@ div#about.container {
     #about-div {
         width: 56%;
     }
-    #navvy{padding: 0 3em;}
+
+    #navvy {
+        padding: 0 3em;
+    }
 
 }
 
