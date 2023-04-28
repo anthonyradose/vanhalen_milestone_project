@@ -123,6 +123,7 @@ svg#media-icon {
     position: fixed;
     top: 0;
     align-content: center;
+    padding: 0;
 }
 
 #nav-ul {
@@ -182,7 +183,6 @@ svg#media-icon {
     #navbarTogglerDemo03 {
         background: transparent;
     }
-
     #nav-ul>li>a {
         color: white;
     }
@@ -207,7 +207,7 @@ svg#media-icon {
 }
 
 @media (min-width: 1200px) {
-
+    #navvy{padding: 0 3em;}
     #carousel-imgs>div.carousel-inner img,
     #carousel-videos>div.carousel-inner iframe {
         height: 500px;

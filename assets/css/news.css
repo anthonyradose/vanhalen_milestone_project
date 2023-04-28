@@ -21,9 +21,7 @@
     align-items: center;
     justify-content: center;
     text-shadow: -2px -2px 0em #000;
-    font-size: 64px;
     color: white;
-    font-weight: 300;
     text-align: center;
     font-family: lato;
     padding: 10%;
@@ -145,6 +143,7 @@ svg#media-icon {
     position: fixed;
     top: 0;
     align-content: center;
+    padding: 0;
 }
 
 #nav-ul {
@@ -170,6 +169,7 @@ svg#media-icon {
     justify-content: center;
     padding: 3em;
     color: white;
+    font-weight: normal;
 }
 
 
@@ -221,6 +221,7 @@ svg#media-icon {
     #nav-ul>li>a {
         color: white;
     }
+
     #home-lg {
         display: flex;
     }
@@ -236,6 +237,10 @@ svg#media-icon {
 }
 
 @media (min-width: 1200px) {
+    #navvy {
+        padding: 0 3em;
+    }
+
     #about-div {
         width: 56%;
     }
