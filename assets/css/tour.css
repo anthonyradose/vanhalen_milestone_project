@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 
-body {
-    background: linear-gradient(to top left, white 50%, cyan 50%);
-    /* background-size: 100% 100%; */
+
+#main{
+
+    background: linear-gradient(to top left, white 50%, #8C92AC
+    50%);
 }
 
 .table {
@@ -14,16 +16,10 @@ body {
 #app {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: luminosity;
-    background-color: rgba(0, 255, 255, 0.9);
-    background-attachment: fixed;
-    background-position: center;
 }
 
 
-h2 {
+h1 {
     height: 40vh;
     display: flex;
     align-items: center;

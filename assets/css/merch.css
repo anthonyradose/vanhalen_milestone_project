@@ -11,15 +11,17 @@
     background-position: center;
 }
 
-h2 {
-    height: 40vh;
+#merch-h1 {
+    height: 30vh;
     display: flex;
-    align-items: center;
     justify-content: center;
     text-shadow: -2px -2px 0em #000;
-    font-size: 64px;
-    color: white;
+    text-align: center;
+    align-items: center;
     font-weight: 300;
+    color: white;
+    margin: 0;
+    padding: 10%;
 }
 
 .m-3 {

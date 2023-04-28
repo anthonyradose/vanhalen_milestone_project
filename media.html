@@ -149,76 +149,120 @@
             </div>
         </div>
     </nav>
-    <main class="p-5" id="main">
-        <section class="container p-5" id="media-section">
-            <h2>PHOTOS/VIDEOS</h2>
+    <main class="px-5" id="main">
+        <section class="container px-5" id="media-section">
+            <h1 class="display-1">MEDIA</h1>
             <div class="container" id="media-div">
-                <div id="carousel-imgs" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-imgs" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-imgs" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-imgs" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
+                <div id="photos-div">
+                    <h3>PHOTO GALLERY</h3>
+                    <div id="carousel-imgs" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-imgs" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel-imgs" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel-imgs" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://i.ytimg.com/vi/2nen8UpI8mc/sddefault.jpg" class="d-block w-100"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.vhnd.com/wp-content/uploads/2014/07/dog_zloz_3.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://cdn2.lamag.com/wp-content/uploads/sites/6/2020/05/1500x1000_VAN-HALEN-RECORDING-STUDIO-1978-NEIL-ZLOZOWER.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-imgs"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-imgs"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="https://i.ytimg.com/vi/2nen8UpI8mc/sddefault.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://www.vhnd.com/wp-content/uploads/2014/07/dog_zloz_3.jpg"
-                                class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://cdn2.lamag.com/wp-content/uploads/sites/6/2020/05/1500x1000_VAN-HALEN-RECORDING-STUDIO-1978-NEIL-ZLOZOWER.jpg"
-                                class="d-block w-100" alt="...">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-imgs"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-imgs"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
-                <div id="carousel-videos" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-videos" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carousel-videos" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carousel-videos" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
+                <div id="videos-div">
+                    <h3>MUSIC VIDEOS</h3>
+                    <div id="carousel-videos" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-videos" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel-videos" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel-videos" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <iframe src="https://www.youtube.com/embed/9X6e7uctAww" class="d-block w-100"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe src="https://www.youtube.com/embed/i5txwFv-zYM" class="d-block w-100"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe src="https://www.youtube.com/embed/qtwBFz6lfrY" class="d-block w-100"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-videos"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-videos"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <iframe src="https://www.youtube.com/embed/9X6e7uctAww" class="d-block w-100"
-                                allowfullscreen></iframe>
+                </div>
+                <div id="interviews-div">
+                    <h3>INTERVIEWS</h3>
+                    <div id="carousel-videos" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-videos" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel-videos" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel-videos" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
                         </div>
-                        <div class="carousel-item">
-                            <iframe src="https://www.youtube.com/embed/i5txwFv-zYM" class="d-block w-100"
-                                allowfullscreen></iframe>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <iframe src="https://www.youtube.com/embed/9X6e7uctAww" class="d-block w-100"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe src="https://www.youtube.com/embed/i5txwFv-zYM" class="d-block w-100"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe src="https://www.youtube.com/embed/qtwBFz6lfrY" class="d-block w-100"
+                                    allowfullscreen></iframe>
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <iframe src="https://www.youtube.com/embed/qtwBFz6lfrY" class="d-block w-100"
-                                allowfullscreen></iframe>
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-videos"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-videos"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-videos"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-videos"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
 
             </div>

@@ -4,9 +4,14 @@
 #app {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    background-color: cyan;
 }
-
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    word-spacing: 0.3em;
+}
 #navbarTogglerDemo03 {
     background-image: linear-gradient(-45deg, yellow 25%, black 25%, black 50%, yellow 50%, yellow 75%, black 75%, black 100%);
     background-repeat: repeat;
@@ -101,10 +106,28 @@ svg#media-icon {
 }
 
 #main {
-    background: linear-gradient(to top left, white 50%, cyan 50%);
 }
 #album1-container, #album2-container{
     margin: 3em auto;
+}
+#album1-container{
+    background: linear-gradient(to top left, white 50%, cyan 50%);
+}
+#album2-container{
+    background: linear-gradient(to top right, white 50%, black 50%);
+}
+#album3-container{
+    background: linear-gradient(to top left, white 50%, #FFD700
+    50%);
+}
+#album4-container{
+    background: linear-gradient(to top right, white 50%, #8C92AC 50%);
+}
+#album5-container{
+    background: linear-gradient(to top left, white 50%, #002F6C 50%);
+}
+#album6-container{
+    background: linear-gradient(to top right, white 50%, #CE1141 50%);
 }
 
 .music-section {
