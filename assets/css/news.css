@@ -161,6 +161,8 @@ svg#media-icon {
 
 #new-album-container {
     margin-bottom: 3em;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 70% 100%, 0 100%);
+
 }
 
 #new-album-info,
@@ -177,7 +179,11 @@ svg#media-icon {
 
 @media(min-width: 576px) {}
 
-@media(min-width: 768px) {}
+@media(min-width: 768px) {
+    #new-album-container{
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 80% 100%, 0 100%);
+    }
+}
 
 @media(max-width: 991px) {
     .navbar-brand {
@@ -234,6 +240,9 @@ svg#media-icon {
 
     #about-div {
         width: 77%;
+    }
+    #new-album-container{
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
     }
 
 }
