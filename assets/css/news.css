@@ -1,139 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
-
-
-#app {
+/* Body: */
+#news-page {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    width: 100%;
-    max-width: 100%;
-
-
-
-}
-
-#main {
-    background: linear-gradient(to top left, white 50%, #FFD700
-    50%);
-}
-
-#news-h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* text-shadow: -2px -2px 0em #000;
-    color: white; */
-     text-shadow: -2px -2px 0em #fff;
-    color: black;
-    font-weight: normal;
-    text-align: center;
-    font-family: lato;
-    padding: 10%;
-    word-spacing: 0.3em;
-    background-color: transparent;
-}
-
-.card {
-    height: 60vh;
-    overflow: auto;
-    border: none;
-    margin: 0;
-    background: transparent;
-}
-
-.card-img-top {
-    width: 50%;
-}
-
-.card-body {
-    background: lightslategrey;
-    color: white;
-    width: 50%;
-}
-
-#navbarTogglerDemo03 {
-    background-image: linear-gradient(-45deg, yellow 25%, black 25%, black 50%, yellow 50%, yellow 75%, black 75%, black 100%);
-    background-repeat: repeat;
-}
-
-.nav-link:hover .bi,
-.nav-link:hover #guitar,
-.nav-link:hover #home-mobile-icon,
-.nav-link:hover #media-icon,
-.nav-link:hover #about-icon,
-.nav-link:hover #merch-icon {
-    filter: brightness(79%);
-}
-
-svg#media-icon {
-    margin-right: 0.5rem;
-}
-
-.nav-link:hover span {
-    text-decoration: underline;
-    text-underline-offset: 8px;
-}
-
-#house-mobile-icon {
-    font-size: 1.3rem;
-}
-
-.nav-link>span {
-    text-shadow: -1px -1px 0em #000;
-    font-size: 1.2rem;
-}
-
-.nav-item {
-    display: flex;
-    align-items: center;
-}
-
-.bi {
-    display: flex;
 }
 
 
-#news-section {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    max-width: 100%;
-}
-
-
-
-
-
-#bottom {
-    height: 10vh;
-    font-size: 32px;
-    background-color: #393D47;
-    display: flex;
-    justify-content: space-evenly;
-    border-top: 1px solid white;
-    box-shadow: 0px -2px 4px rgba(0, 0, 0, .2);
-    align-items: center;
-
-}
-
-#bottom i:nth-of-type(1) {
-    color: red;
-}
-
-#bottom i:nth-of-type(2) {
-    color: green;
-}
-
-#bottom i:nth-of-type(3) {
-    color: blueviolet;
-}
-
-#bottom i:nth-of-type(4) {
-    color: dodgerblue;
-}
-
-
+/* Header/Navbar CSS: */
 .navbar,
 #navvy {
     height: 10vh;
@@ -157,6 +29,75 @@ svg#media-icon {
     font-size: 1.1rem;
 }
 
+#navbar-mobile-dropdown {
+    background-image: linear-gradient(-45deg, yellow 25%, black 25%, black 50%, yellow 50%, yellow 75%, black 75%, black 100%);
+    background-repeat: repeat;
+}
+
+.nav-link:hover .bi,
+.nav-link:hover #guitar-icon,
+.nav-link:hover #home-mobile-icon,
+.nav-link:hover #home-icon,
+.nav-link:hover #media-icon,
+.nav-link:hover #about-icon,
+.nav-link:hover #merch-icon {
+    filter: brightness(79%);
+}
+
+svg#media-icon {
+    margin-right: 0.5rem;
+}
+
+.nav-link:hover span {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+#home-mobile-icon {
+    font-size: 1.3rem;
+}
+
+.nav-link>span {
+    text-shadow: -1px -1px 0em #000;
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.bi {
+    display: flex;
+}
+
+
+/* Main: */
+#news-h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-shadow: -2px -2px 0em #000;
+    color: white; */
+     text-shadow: -2px -2px 0em #fff;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+    font-family: lato;
+    padding: 10%;
+    word-spacing: 0.3em;
+    background-color: transparent;
+}
+#news-section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    max-width: 100%;
+    background: linear-gradient(to top left, white 50%, #FFD700
+    50%);
+}
 .container {
     overflow: auto;
 }
@@ -179,6 +120,64 @@ svg#media-icon {
 }
 
 
+
+
+
+
+
+/* Footer: */
+#bottom {
+    height: 10vh;
+    font-size: 32px;
+    background-color: #393D47;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid white;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, .2);
+    align-items: center;
+
+}
+.footer-link {
+    text-decoration: none;
+}
+#youtube-link {
+    color: #FF0000;
+}
+
+#youtube-link:hover .bi {
+    filter: brightness(79%);
+}
+
+#spotify-link {
+    color: #1DB954;
+}
+
+#spotify-link:hover .bi {
+    filter: brightness(79%);
+}
+
+#instagram-link {
+    color: #8a3ab9
+}
+
+#instagram-link:hover .bi {
+    filter: brightness(79%)
+}
+
+#facebook-link {
+    color: #4267B2
+}
+
+#facebook-link:hover .bi {
+    filter: brightness(79%);
+}
+
+
+
+
+
+
+
 @media(min-width: 576px) {}
 
 @media(min-width: 768px) {
@@ -194,28 +193,22 @@ svg#media-icon {
         justify-content: center;
     }
 
-    #navbarTogglerDemo03 {
+    #navbar-mobile-dropdown {
         position: fixed;
         width: 100%;
         top: 10vh;
         box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
     }
 
-    #nav-ul>li>a,
-    .bi {
+    #nav-ul>li>a {
         color: white;
         mix-blend-mode: difference;
     }
 
     #home-mobile-icon {
         color: white;
-        mix-blend-mode: normal;
+        font-size: 1.3rem;
     }
-
-    svg#house-mobile-icon:hover {
-        filter: brightness(79%);
-    }
-
 
     #home-lg,
     #house-lg {
@@ -224,7 +217,7 @@ svg#media-icon {
 }
 
 @media (min-width: 992px) {
-    #navbarTogglerDemo03 {
+    #navbar-mobile-dropdown {
         background: transparent;
     }
 
@@ -236,7 +229,7 @@ svg#media-icon {
         display: flex;
     }
 
-    #home-mobile-icon {
+    #home-icon {
         font-size: 1.3rem;
     }
 

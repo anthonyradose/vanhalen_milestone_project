@@ -30,13 +30,14 @@
     font-size: 1.1rem;
 }
 
-#navbarTogglerDemo03 {
+#navbar-mobile-dropdown {
     background-image: linear-gradient(-45deg, yellow 25%, black 25%, black 50%, yellow 50%, yellow 75%, black 75%, black 100%);
     background-repeat: repeat;
 }
 
 .nav-link:hover .bi,
 .nav-link:hover #guitar-icon,
+.nav-link:hover #home-mobile-icon,
 .nav-link:hover #home-icon,
 .nav-link:hover #media-icon,
 .nav-link:hover #about-icon,
@@ -254,7 +255,7 @@ h2 {
         justify-content: center;
     }
 
-    #navbarTogglerDemo03 {
+    #navbar-mobile-dropdown {
         position: fixed;
         width: 100%;
         top: 10vh;
@@ -266,10 +267,6 @@ h2 {
         mix-blend-mode: difference;
     }
 
-    #home-mobile-icon:hover {
-        filter: brightness(79%);
-    }
-
     #home-lg,
     #house-lg {
         display: none;
@@ -278,7 +275,7 @@ h2 {
 
 /* Min 992px: */
 @media (min-width: 992px) {
-    #navbarTogglerDemo03 {
+    #navbar-mobile-dropdown {
         background: transparent;
     }
 

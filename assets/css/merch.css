@@ -1,244 +1,236 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
-
-#app {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+/* Body: */
+#merch-page {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 
-#merch-h1 {
-    height: 30vh;
-    display: flex;
-    justify-content: center;
-    text-shadow: -2px -2px 0em #000;
-    text-align: center;
-    align-items: center;
-    font-weight: 300;
-    color: white;
-    margin: 0;
-    padding: 10%;
-}
-
-#main {
-    display: flex;
-    background: linear-gradient(to top left, white 50%, #002F6C 50%);
-}
-
-.m-3 {
-    margin: 2em
-}
-
-#navbarTogglerDemo03 {
-    background-image: linear-gradient(-45deg, yellow 25%, black 25%, black 50%, yellow 50%, yellow 75%, black 75%, black 100%);
-    background-repeat: repeat;
-}
-
-.nav-link:hover .bi,
-.nav-link:hover #guitar,
-.nav-link:hover #home-mobile-icon,
-.nav-link:hover #media-icon,
-.nav-link:hover #about-icon,
-.nav-link:hover #merch-icon {
-    filter: brightness(79%);
-}
-
-svg#media-icon {
-    margin-right: 0.5rem;
-}
-
-.nav-link:hover span {
-    text-decoration: underline;
-    text-underline-offset: 8px;
-}
-
-#house-mobile-icon {
-    font-size: 1.3rem;
-}
-
-.nav-link>span {
-    text-shadow: -1px -1px 0em #000;
-    font-size: 1.2rem;
-}
-
-.nav-item {
-    display: flex;
-    align-items: center;
-}
-
-.bi {
-    display: flex;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-#bottom {
-    height: 10vh;
-    font-size: 2rem;
-    background-color: #393D47;
-    display: flex;
-    justify-content: space-evenly;
-    border-top: 1px solid white;
-    box-shadow: 0px -2px 4px rgba(0, 0, 0, .2);
-    align-items: center;
-
-}
-
-#bottom i:nth-of-type(1) {
-    color: red;
-}
-
-#bottom i:nth-of-type(2) {
-    color: green;
-}
-
-#bottom i:nth-of-type(3) {
-    color: blueviolet;
-}
-
-#bottom i:nth-of-type(4) {
-    color: dodgerblue;
-}
-
-#bottom .footer-icons {
-    mix-blend-mode: normal;
-}
-
+/* Header/Navbar CSS: */
 .navbar,
 #navvy {
-    height: 10vh;
-    z-index: 3;
+  height: 10vh;
+  z-index: 3;
 }
 
 #navvy {
-    background-color: deeppink;
-    color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
-    position: fixed;
-    top: 0;
-    align-content: center;
-    padding: 0;
+  background-color: deeppink;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  align-content: center;
+  padding: 0;
 }
 
 #nav-ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.1rem;
 }
 
-
-
-
-@media(min-width: 576px) {}
-
-@media(min-width: 768px) {}
-
-@media(max-width: 991px) {
-    .navbar-brand {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    #navbarTogglerDemo03 {
-        position: fixed;
-        width: 100%;
-        top: 10vh;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
-    }
-
-    #nav-ul>li>a,
-    .bi {
-        color: white;
-        mix-blend-mode: difference;
-    }
-
-    #home-mobile-icon {
-        color: white;
-        mix-blend-mode: normal;
-    }
-
-    svg#house-mobile-icon:hover {
-        filter: brightness(79%);
-    }
-
-    #home-lg,
-    #house-lg {
-        display: none;
-    }
-
+#navbar-mobile-dropdown {
+  background-image: linear-gradient(
+    -45deg,
+    yellow 25%,
+    black 25%,
+    black 50%,
+    yellow 50%,
+    yellow 75%,
+    black 75%,
+    black 100%
+  );
+  background-repeat: repeat;
 }
 
-@media (min-width: 992px) {
-    #navbarTogglerDemo03 {
-        background: transparent;
-    }
-
-    #nav-ul>li>a {
-        color: white;
-    }
-
-
-
-    #home-lg {
-        display: flex;
-    }
-
-    #home-mobile-icon {
-        font-size: 1.3rem;
-    }
-
+.nav-link:hover .bi,
+.nav-link:hover #guitar-icon,
+.nav-link:hover #home-mobile-icon,
+.nav-link:hover #home-icon,
+.nav-link:hover #media-icon,
+.nav-link:hover #about-icon,
+.nav-link:hover #merch-icon {
+  filter: brightness(79%);
 }
 
-@media(min-width: 992px) and (max-width: 1200px) {}
-
-@media(min-width: 1200px) {
-    #navvy {
-        padding: 0 3em;
-    }
-
-    h2 {
-        height: 20vh;
-        align-items: normal;
-        margin-top: 10vh;
-    }
-
-
+svg#media-icon {
+  margin-right: 0.5rem;
 }
 
+.nav-link:hover span {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
 
+#home-mobile-icon {
+  font-size: 1.3rem;
+}
+
+.nav-link > span {
+  text-shadow: -1px -1px 0em #000;
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.bi {
+  display: flex;
+}
+
+/* Main: */
+#merch-h1 {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  text-shadow: -2px -2px 0em #000;
+  text-align: center;
+  align-items: center;
+  font-weight: 300;
+  color: white;
+  margin: 0;
+  padding: 10%;
+}
+
+main {
+  display: flex;
+  background: linear-gradient(to top left, white 50%, #002f6c 50%);
+}
 
 #merch-container {
-    margin: 3em auto;
+  margin: 3em auto;
 }
-
-
-
-
-
-
 
 #section1,
 #section2 {
-    width: 100%;
-    max-width: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 #section1 {
-    background: linear-gradient(to top left, white 50%, cyan 50%);
-    background-size: 100% 100%;
+  background: linear-gradient(to top left, white 50%, cyan 50%);
+  background-size: 100% 100%;
 }
 
 #section2 {
-    background: linear-gradient(to top right, white 50%, cyan 50%);
-    background-size: 100% 100%;
+  background: linear-gradient(to top right, white 50%, cyan 50%);
+  background-size: 100% 100%;
+}
+
+/* Footer: */
+#bottom {
+  height: 10vh;
+  font-size: 2rem;
+  background-color: #393d47;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid white;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.2);
+  align-items: center;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+#youtube-link {
+  color: #ff0000;
+}
+
+#youtube-link:hover .bi {
+  filter: brightness(79%);
+}
+
+#spotify-link {
+  color: #1db954;
+}
+
+#spotify-link:hover .bi {
+  filter: brightness(79%);
+}
+
+#instagram-link {
+  color: #8a3ab9;
+}
+
+#instagram-link:hover .bi {
+  filter: brightness(79%);
+}
+
+#facebook-link {
+  color: #4267b2;
+}
+
+#facebook-link:hover .bi {
+  filter: brightness(79%);
+}
+
+/* Breakpoints: */
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #navbar-mobile-dropdown {
+    position: fixed;
+    width: 100%;
+    top: 10vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  #nav-ul > li > a {
+    color: white;
+    mix-blend-mode: difference;
+  }
+
+  #home-lg,
+  #house-lg {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #navbar-mobile-dropdown {
+    background: transparent;
+  }
+
+  #nav-ul > li > a {
+    color: white;
+  }
+
+  #new-single {
+    width: 50%;
+  }
+
+  #home-lg {
+    display: flex;
+  }
+
+  #home-icon {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1200px) {
+  #navvy {
+    padding: 0 3em;
+  }
+
+  h2 {
+    height: 20vh;
+    align-items: normal;
+    margin-top: 10vh;
+  }
 }

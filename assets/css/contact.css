@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
-
 body {
     background: linear-gradient(to top left, white 50%, cyan 50%);
-    /* background-size: 100% 100%; */
 }
 
 .table {
     margin-bottom: 3em;
 }
 
-#app {
+#contact-page {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     background-size: cover;
@@ -32,92 +29,17 @@ h2 {
     font-weight: 300;
 }
 
-#navbarTogglerDemo03 {
-    background-image: linear-gradient(-45deg, yellow 25%, black 25%, black 50%, yellow 50%, yellow 75%, black 75%, black 100%);
-    background-repeat: repeat;
+#section1 {
+    width: 100%;
+    max-width: 100%;
 }
-
-.nav-link:hover .bi,
-.nav-link:hover #guitar,
-.nav-link:hover #home-mobile-icon,
-.nav-link:hover #media-icon,
-.nav-link:hover #about-icon,
-.nav-link:hover #merch-icon {
-    filter: brightness(79%);
-}
-
-svg#media-icon {
-    margin-right: 0.5rem;
-}
-
-.nav-link:hover span {
-    text-decoration: underline;
-    text-underline-offset: 8px;
-}
-
-#house-mobile-icon {
-    font-size: 1.3rem;
-}
-
-.nav-link>span {
-    text-shadow: -1px -1px 0em #000;
-    font-size: 1.2rem;
-}
-
-.nav-item {
-    display: flex;
-    align-items: center;
-}
-
-.bi {
-    display: flex;
-}
-
-
 
 #section1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
+    background: linear-gradient(to top left, white 50%, cyan 50%);
+    background-size: 100% 100%;
 }
 
-
-tr .continent-td {
-    background-color: yellow;
-    text-align: center;
-}
-
-#bottom {
-    height: 10vh;
-    font-size: 32px;
-    background-color: #393D47;
-    display: flex;
-    justify-content: space-evenly;
-    border-top: 1px solid white;
-    box-shadow: 0px -2px 4px rgba(0, 0, 0, .2);
-    align-items: center;
-
-}
-
-#bottom i:nth-of-type(1) {
-    color: red;
-}
-
-#bottom i:nth-of-type(2) {
-    color: green;
-}
-
-#bottom i:nth-of-type(3) {
-    color: blueviolet;
-}
-
-#bottom i:nth-of-type(4) {
-    color: dodgerblue;
-}
-
-
+/* Header/Navbar CSS: */
 .navbar,
 #navvy {
     height: 10vh;
@@ -141,6 +63,129 @@ tr .continent-td {
     font-size: 1.1rem;
 }
 
+#navbar-mobile-dropdown {
+    background-image: linear-gradient(-45deg, yellow 25%, black 25%, black 50%, yellow 50%, yellow 75%, black 75%, black 100%);
+    background-repeat: repeat;
+}
+
+.nav-link:hover .bi,
+.nav-link:hover #guitar-icon,
+.nav-link:hover #home-mobile-icon,
+.nav-link:hover #home-icon,
+.nav-link:hover #media-icon,
+.nav-link:hover #about-icon,
+.nav-link:hover #merch-icon {
+    filter: brightness(79%);
+}
+
+svg#media-icon {
+    margin-right: 0.5rem;
+}
+
+.nav-link:hover span {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+#home-mobile-icon {
+    font-size: 1.3rem;
+}
+
+.nav-link>span {
+    text-shadow: -1px -1px 0em #000;
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.bi {
+    display: flex;
+}
+
+
+
+
+
+
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+
+tr .continent-td {
+    background-color: yellow;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Footer: */
+#bottom {
+    height: 10vh;
+    font-size: 2rem;
+    background-color: #393D47;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid white;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, .2);
+    align-items: center;
+
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#youtube-link {
+    color: #FF0000;
+}
+
+#youtube-link:hover .bi {
+    filter: brightness(79%);
+}
+
+#spotify-link {
+    color: #1DB954;
+}
+
+#spotify-link:hover .bi {
+    filter: brightness(79%);
+}
+
+#instagram-link {
+    color: #8a3ab9
+}
+
+#instagram-link:hover .bi {
+    filter: brightness(79%)
+}
+
+#facebook-link {
+    color: #4267B2
+}
+
+#facebook-link:hover .bi {
+    filter: brightness(79%);
+}
+
+
+
+
+
+
+
+
 @media(min-width: 576px) {}
 
 @media(min-width: 768px) {}
@@ -152,50 +197,41 @@ tr .continent-td {
         justify-content: center;
     }
 
-    #navbarTogglerDemo03 {
+    #navbar-mobile-dropdown {
         position: fixed;
         width: 100%;
         top: 10vh;
         box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
     }
 
-    #nav-ul>li>a,
-    .bi {
+    #nav-ul>li>a {
         color: white;
         mix-blend-mode: difference;
     }
-
-    #home-mobile-icon {
-        color: white;
-        mix-blend-mode: normal;
-    }
-
-    svg#house-mobile-icon:hover {
-        filter: brightness(79%);
-    }
-
 
     #home-lg,
     #house-lg {
         display: none;
     }
+
 }
 
 @media (min-width: 992px) {
-    #navbarTogglerDemo03 {
+    #navbar-mobile-dropdown {
         background: transparent;
     }
-#navvy{padding: 0 3em;
-}
+
     #nav-ul>li>a {
         color: white;
     }
+
+
 
     #home-lg {
         display: flex;
     }
 
-    #home-mobile-icon {
+    #home-icon {
         font-size: 1.3rem;
     }
 }
@@ -212,12 +248,3 @@ tr .continent-td {
     }
 }
 
-#section1 {
-    width: 100%;
-    max-width: 100%;
-}
-
-#section1 {
-    background: linear-gradient(to top left, white 50%, cyan 50%);
-    background-size: 100% 100%;
-}

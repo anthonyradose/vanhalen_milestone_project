@@ -4,152 +4,291 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
         integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
     <link href="./assets/css/media.css" rel="stylesheet">
-    <title>Bootstrap Example</title>
+    <title>Van Halen Media!</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body id="app">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid" id="navvy">
-            <div class="nav-item m-4 d-lg-none">
-                <a class="nav-link" aria-current="page" href="index.html">
-                    <svg id="house-mobile-icon" xmlns="http://www.w3.org/2000/svg" width="3em" height="3em"
-                        viewBox="0 0 290.207 165.954">
-                        <path
-                            d="M200.528 117.555c9.57-25.216 17.401-45.945 17.401-46.066 0-.121-9.546-.22-21.214-.22-16.813 0-21.176.099-21.033.477.1.262.934 2.491 1.853 4.954l1.672 4.477 12.157.006c11.392.005 12.146.047 11.974.673-.146.531-18.795 49.867-20.226 53.505l-.375.954-.565-1.335c-.312-.734-5.77-15.07-12.13-31.855-6.359-16.786-11.681-30.82-11.826-31.188-.25-.63-2.808-.668-46.235-.668-36.625 0-45.932.097-45.779.477.106.262 1.302 2.451 2.658 4.864l2.465 4.388 39.871.097 39.87.097 1.252 3.336c.688 1.835 1.33 3.551 1.426 3.813.14.38-7.809.477-38.938.477H75.693l2.734 4.952 2.734 4.952 38.295.103 38.295.103 1.423 3.659 1.424 3.659-12.823.25c-7.052.139-23.852.252-37.334.252-13.48 0-24.504.13-24.496.287.008.157 1.173 2.346 2.59 4.864l2.574 4.578 36.736.19 36.736.192 8.74 23.462c4.807 12.904 8.845 23.72 8.973 24.035.187.461.29.424.532-.191.165-.42 8.13-21.394 17.702-46.61zm32.682 58.913 22.66-59.8h75.22l2.743-4.933c1.509-2.714 2.743-5.031 2.743-5.15 0-.12-17.271-.218-38.381-.218-30.545 0-38.346-.097-38.207-.477.096-.262.738-1.979 1.427-3.815l1.251-3.338H341.103l2.686-4.864 2.686-4.864-40.002-.19-40.001-.192 1.395-3.624 1.395-3.624 40.81-.1 40.81-.099 1.421-2.571a894.14 894.14 0 0 1 2.763-4.956l1.341-2.384-47.016.003h-47.017l-10.51 27.753-10.51 27.752-11.522.101c-6.336.056-11.519-.03-11.516-.19.003-.161 3.85-10.421 8.55-22.8l8.546-22.51 4.113-.19 4.113-.19 1.834-4.763c1.008-2.62 1.833-4.811 1.833-4.87 0-.06-4.236-.063-9.413-.007l-9.412.102-20.356 53.703-20.355 53.703 2.586 6.88c1.69 4.492 2.697 6.706 2.905 6.383.175-.273 4.982-12.77 10.682-27.773l10.363-27.277 11.568-.101c10.906-.096 11.556-.063 11.353.572-.118.37-7.491 19.867-16.385 43.327l-16.17 42.655 2.432 6.368 2.65 6.941c.192.509.248.509.506 0 .16-.315 10.488-27.482 22.95-60.372z"
-                            style="fill:white" transform="translate(-66.2 -71.269)" />
-                    </svg>
-                </a>
+<body id="media-page">
+    <!-- Header section -->
+    <header>
+        <!-- Navigation menu -->
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid" id="navvy">
+            <div class="nav-item m-5 d-lg-none">
+              <a class="nav-link" aria-current="page" href="index.html">
+                <svg
+                  id="home-mobile-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="3em"
+                  height="3em"
+                  viewBox="0 0 290.207 165.954"
+                >
+                  <path
+                    d="M200.528 117.555c9.57-25.216 17.401-45.945 17.401-46.066 0-.121-9.546-.22-21.214-.22-16.813 0-21.176.099-21.033.477.1.262.934 2.491 1.853 4.954l1.672 4.477 12.157.006c11.392.005 12.146.047 11.974.673-.146.531-18.795 49.867-20.226 53.505l-.375.954-.565-1.335c-.312-.734-5.77-15.07-12.13-31.855-6.359-16.786-11.681-30.82-11.826-31.188-.25-.63-2.808-.668-46.235-.668-36.625 0-45.932.097-45.779.477.106.262 1.302 2.451 2.658 4.864l2.465 4.388 39.871.097 39.87.097 1.252 3.336c.688 1.835 1.33 3.551 1.426 3.813.14.38-7.809.477-38.938.477H75.693l2.734 4.952 2.734 4.952 38.295.103 38.295.103 1.423 3.659 1.424 3.659-12.823.25c-7.052.139-23.852.252-37.334.252-13.48 0-24.504.13-24.496.287.008.157 1.173 2.346 2.59 4.864l2.574 4.578 36.736.19 36.736.192 8.74 23.462c4.807 12.904 8.845 23.72 8.973 24.035.187.461.29.424.532-.191.165-.42 8.13-21.394 17.702-46.61zm32.682 58.913 22.66-59.8h75.22l2.743-4.933c1.509-2.714 2.743-5.031 2.743-5.15 0-.12-17.271-.218-38.381-.218-30.545 0-38.346-.097-38.207-.477.096-.262.738-1.979 1.427-3.815l1.251-3.338H341.103l2.686-4.864 2.686-4.864-40.002-.19-40.001-.192 1.395-3.624 1.395-3.624 40.81-.1 40.81-.099 1.421-2.571a894.14 894.14 0 0 1 2.763-4.956l1.341-2.384-47.016.003h-47.017l-10.51 27.753-10.51 27.752-11.522.101c-6.336.056-11.519-.03-11.516-.19.003-.161 3.85-10.421 8.55-22.8l8.546-22.51 4.113-.19 4.113-.19 1.834-4.763c1.008-2.62 1.833-4.811 1.833-4.87 0-.06-4.236-.063-9.413-.007l-9.412.102-20.356 53.703-20.355 53.703 2.586 6.88c1.69 4.492 2.697 6.706 2.905 6.383.175-.273 4.982-12.77 10.682-27.773l10.363-27.277 11.568-.101c10.906-.096 11.556-.063 11.353.572-.118.37-7.491 19.867-16.385 43.327l-16.17 42.655 2.432 6.368 2.65 6.941c.192.509.248.509.506 0 .16-.315 10.488-27.482 22.95-60.372z"
+                    style="fill: white"
+                    transform="translate(-66.2 -71.269)"
+                  />
+                </svg>
+              </a>
             </div>
-            <button class="navbar-toggler m-4" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button
+              class="navbar-toggler m-5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbar-mobile-dropdown"
+              aria-controls="navbar-mobile-dropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul id="nav-ul" class="navbar-nav me-auto mb-2 mb-lg-0 m-auto p-4 w-100
-              ">
-                    <li class="nav-item">
-                        <a class="nav-link align-items-baseline" id="home-lg" href="index.html">
-                            <svg id="home-mobile-icon" xmlns="http://www.w3.org/2000/svg" width="3em" height="3em"
-                                viewBox="0 0 290.207 165.954">
-                                <path
-                                    d="M200.528 117.555c9.57-25.216 17.401-45.945 17.401-46.066 0-.121-9.546-.22-21.214-.22-16.813 0-21.176.099-21.033.477.1.262.934 2.491 1.853 4.954l1.672 4.477 12.157.006c11.392.005 12.146.047 11.974.673-.146.531-18.795 49.867-20.226 53.505l-.375.954-.565-1.335c-.312-.734-5.77-15.07-12.13-31.855-6.359-16.786-11.681-30.82-11.826-31.188-.25-.63-2.808-.668-46.235-.668-36.625 0-45.932.097-45.779.477.106.262 1.302 2.451 2.658 4.864l2.465 4.388 39.871.097 39.87.097 1.252 3.336c.688 1.835 1.33 3.551 1.426 3.813.14.38-7.809.477-38.938.477H75.693l2.734 4.952 2.734 4.952 38.295.103 38.295.103 1.423 3.659 1.424 3.659-12.823.25c-7.052.139-23.852.252-37.334.252-13.48 0-24.504.13-24.496.287.008.157 1.173 2.346 2.59 4.864l2.574 4.578 36.736.19 36.736.192 8.74 23.462c4.807 12.904 8.845 23.72 8.973 24.035.187.461.29.424.532-.191.165-.42 8.13-21.394 17.702-46.61zm32.682 58.913 22.66-59.8h75.22l2.743-4.933c1.509-2.714 2.743-5.031 2.743-5.15 0-.12-17.271-.218-38.381-.218-30.545 0-38.346-.097-38.207-.477.096-.262.738-1.979 1.427-3.815l1.251-3.338H341.103l2.686-4.864 2.686-4.864-40.002-.19-40.001-.192 1.395-3.624 1.395-3.624 40.81-.1 40.81-.099 1.421-2.571a894.14 894.14 0 0 1 2.763-4.956l1.341-2.384-47.016.003h-47.017l-10.51 27.753-10.51 27.752-11.522.101c-6.336.056-11.519-.03-11.516-.19.003-.161 3.85-10.421 8.55-22.8l8.546-22.51 4.113-.19 4.113-.19 1.834-4.763c1.008-2.62 1.833-4.811 1.833-4.87 0-.06-4.236-.063-9.413-.007l-9.412.102-20.356 53.703-20.355 53.703 2.586 6.88c1.69 4.492 2.697 6.706 2.905 6.383.175-.273 4.982-12.77 10.682-27.773l10.363-27.277 11.568-.101c10.906-.096 11.556-.063 11.353.572-.118.37-7.491 19.867-16.385 43.327l-16.17 42.655 2.432 6.368 2.65 6.941c.192.509.248.509.506 0 .16-.315 10.488-27.482 22.95-60.372z"
-                                    style="fill:white" transform="translate(-66.2 -71.269)" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-baseline" href="news.html">
-                            <i class="bi bi-megaphone me-2"></i>
-                            <span>NEWS</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-baseline" href="tour.html">
-                            <i class="bi bi-globe me-2"></i>
-                            <span>TOUR</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-baseline" href="music.html">
-                            <svg id="guitar" xmlns="http://www.w3.org/2000/svg" version="1.1"
-                                xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
-                                width="1em" height="1em" x="0" y="0" viewBox="0 0 512 512" style="margin-right: 0.5rem;"
-                                xml:space="preserve">
-                                <g>
-                                    <path
-                                        d="M257.616 283.046c10.809 22.308 34.826 21.094 45.079 10.841 14.036-14.036 36.418.516 18.454 24.892-21.021 28.525-56.041 31.982-69.691 45.632-22.786 22.786-16.124 64.747-55.456 104.079-29.396 29.396-77.496 29.396-106.892 0l-57.063-57.063c-29.395-29.395-29.395-77.497 0-106.892 39.011-39.011 83.361-38.009 108.774-63.422 20.896-20.896 26.57-52.913 47.151-81.727 8.808-12.332 24.955-21.314 37.858-22.892 16.679-2.04 24.706 16.254 9.994 29.198-5.417 4.766-11.345 9.978-12.426 19.702-1.388 12.485 6.814 28.925 20.07 32.702M374.147 97.069l5.226-22.1 89.506-50.615c8.459-4.816 19.413-3.618 26.629 3.598 8.655 8.655 8.655 22.689 0 31.344-4.714 4.714-11.023 6.86-17.19 6.439l-49.186 59.133-25.666 1.519"
-                                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-width:20.0001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;"
-                                        fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="white"
-                                        stroke-width="20.0001" stroke-linecap="round" stroke-linejoin="round"
-                                        stroke-miterlimit="22.9256" data-original="#000000">
-                                    </path>
-                                    <path
-                                        d="M206.856 253.822 374.148 97.07l29.318 29.318-159.735 170.458-40.042-40.042c-11.432-11.433-30.294-3.713-49.492 29.538-13.444 23.285-45.205 8.913-54.635 44.106-7.553 28.189 24.228 53.653 45.861 75.286 33.924 33.924-22.921 45.826-3.392 83.812M187.414 306.051l23.556 23.557M154.652 338.812l23.557 23.557"
-                                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-width:20.0001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256;"
-                                        fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="white"
-                                        stroke-width="20.0001" stroke-linecap="round" stroke-linejoin="round"
-                                        stroke-miterlimit="22.9256" data-original="#000000">
-                                    </path>
-                                </g>
-                            </svg>
-                            <span>MUSIC</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-baseline" href="#">
-                            <i class="bi bi-film me-2"></i>
-                            <span>MEDIA</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-baseline" href="about.html">
-                            <svg id="about-icon" xmlns="http://www.w3.org/2000/svg" version="1.1"
-                                xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
-                                width="1em" height="1em" x="0" y="0" viewBox="0 0 256 256" style="margin-right: 0.5rem;"
-                                xml:space="preserve">
-                                <g>
-                                    <path
-                                        d="M128 182.794a39.687 39.687 0 1 1 39.687-39.686A39.732 39.732 0 0 1 128 182.794Zm0-69.373a29.687 29.687 0 1 0 29.687 29.687A29.721 29.721 0 0 0 128 113.421Z"
-                                        fill="#ffffff" data-original="#000000"></path>
-                                    <path
-                                        d="M180.03 255.637H75.97a5 5 0 0 1-5-5v-20.813a57.03 57.03 0 0 1 114.06 0v20.813a5 5 0 0 1-5 5Zm-99.06-10h94.06v-15.813a47.03 47.03 0 0 0-94.06 0ZM198.97 121.108a39.687 39.687 0 1 1 39.686-39.687 39.733 39.733 0 0 1-39.686 39.687Zm0-69.374a29.687 29.687 0 1 0 29.686 29.687 29.721 29.721 0 0 0-29.686-29.687Z"
-                                        fill="#ffffff" data-original="#000000"></path>
-                                    <path
-                                        d="M251 193.95h-68.213a5 5 0 1 1 0-10H246v-15.812a47.045 47.045 0 0 0-70.128-40.978 5 5 0 0 1-4.918-8.707A57.045 57.045 0 0 1 256 168.138v20.812a5 5 0 0 1-5 5ZM57.03 121.108a39.687 39.687 0 1 1 39.687-39.687 39.733 39.733 0 0 1-39.687 39.687Zm0-69.374a29.687 29.687 0 1 0 29.687 29.687A29.721 29.721 0 0 0 57.03 51.734Z"
-                                        fill="#ffffff" data-original="#000000"></path>
-                                    <path
-                                        d="M73.213 193.95H5a5 5 0 0 1-5-5v-20.812a57.045 57.045 0 0 1 85.046-49.685 5 5 0 1 1-4.919 8.707A47.045 47.045 0 0 0 10 168.138v15.812h63.213a5 5 0 1 1 0 10ZM128 79.716a39.687 39.687 0 1 1 39.687-39.687A39.733 39.733 0 0 1 128 79.716Zm0-69.374a29.687 29.687 0 1 0 29.687 29.687A29.721 29.721 0 0 0 128 10.342Z"
-                                        fill="#ffffff" data-original="#000000"></path>
-                                </g>
-                            </svg>
-                            <span>ABOUT</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-baseline" href="merch.html">
-                            <svg id="merch-icon" xmlns="http://www.w3.org/2000/svg" version="1.1"
-                                xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
-                                width="1em" height="1em" x="0" y="0" viewBox="0 0 682.667 682.667"
-                                style="margin-right: 0.5rem" xml:space="preserve">
-                                <g>
-                                    <defs>
-                                        <clipPath id="a" clipPathUnits="userSpaceOnUse">
-                                            <path d="M0 512h512V0H0Z" fill="#ffffff" data-original="#000000"></path>
-                                        </clipPath>
-                                    </defs>
-                                    <g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
-                                        <path
-                                            d="M0 0h-58.092c0-33.137-26.863-60-60-60s-60 26.863-60 60h-58.092l-116.902-81.156 51.621-73.724 33.373 22.669V-420h300v287.789l33.373-22.669 51.621 73.724z"
-                                            style="stroke-width:30;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                                            transform="translate(374.092 466)" fill="none" stroke="#ffffff"
-                                            stroke-width="30" stroke-linecap="butt" stroke-linejoin="miter"
-                                            stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
-                                            data-original="#000000"></path>
-                                    </g>
-                                </g>
-                            </svg>
-
-                            <span>MERCH</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link d-flex align-items-baseline" href="contact.html">
-                            <i class="bi bi-envelope me-2"></i>
-                            <span>CONTACT</span>
-                        </a>
-                    </li>
-                </ul>
+            <div class="collapse navbar-collapse" id="navbar-mobile-dropdown">
+              <ul
+                id="nav-ul"
+                class="navbar-nav me-auto mb-2 mb-lg-0 m-auto p-4 w-100"
+              >
+                <li class="nav-item">
+                  <a class="nav-link align-items-baseline" id="home-lg" href="index.html">
+                    <svg
+                      id="home-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="3em"
+                      height="3em"
+                      viewBox="0 0 290.207 165.954"
+                    >
+                      <path
+                        d="M200.528 117.555c9.57-25.216 17.401-45.945 17.401-46.066 0-.121-9.546-.22-21.214-.22-16.813 0-21.176.099-21.033.477.1.262.934 2.491 1.853 4.954l1.672 4.477 12.157.006c11.392.005 12.146.047 11.974.673-.146.531-18.795 49.867-20.226 53.505l-.375.954-.565-1.335c-.312-.734-5.77-15.07-12.13-31.855-6.359-16.786-11.681-30.82-11.826-31.188-.25-.63-2.808-.668-46.235-.668-36.625 0-45.932.097-45.779.477.106.262 1.302 2.451 2.658 4.864l2.465 4.388 39.871.097 39.87.097 1.252 3.336c.688 1.835 1.33 3.551 1.426 3.813.14.38-7.809.477-38.938.477H75.693l2.734 4.952 2.734 4.952 38.295.103 38.295.103 1.423 3.659 1.424 3.659-12.823.25c-7.052.139-23.852.252-37.334.252-13.48 0-24.504.13-24.496.287.008.157 1.173 2.346 2.59 4.864l2.574 4.578 36.736.19 36.736.192 8.74 23.462c4.807 12.904 8.845 23.72 8.973 24.035.187.461.29.424.532-.191.165-.42 8.13-21.394 17.702-46.61zm32.682 58.913 22.66-59.8h75.22l2.743-4.933c1.509-2.714 2.743-5.031 2.743-5.15 0-.12-17.271-.218-38.381-.218-30.545 0-38.346-.097-38.207-.477.096-.262.738-1.979 1.427-3.815l1.251-3.338H341.103l2.686-4.864 2.686-4.864-40.002-.19-40.001-.192 1.395-3.624 1.395-3.624 40.81-.1 40.81-.099 1.421-2.571a894.14 894.14 0 0 1 2.763-4.956l1.341-2.384-47.016.003h-47.017l-10.51 27.753-10.51 27.752-11.522.101c-6.336.056-11.519-.03-11.516-.19.003-.161 3.85-10.421 8.55-22.8l8.546-22.51 4.113-.19 4.113-.19 1.834-4.763c1.008-2.62 1.833-4.811 1.833-4.87 0-.06-4.236-.063-9.413-.007l-9.412.102-20.356 53.703-20.355 53.703 2.586 6.88c1.69 4.492 2.697 6.706 2.905 6.383.175-.273 4.982-12.77 10.682-27.773l10.363-27.277 11.568-.101c10.906-.096 11.556-.063 11.353.572-.118.37-7.491 19.867-16.385 43.327l-16.17 42.655 2.432 6.368 2.65 6.941c.192.509.248.509.506 0 .16-.315 10.488-27.482 22.95-60.372z"
+                        style="fill: white"
+                        transform="translate(-66.2 -71.269)"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-baseline"
+                    href="news.html"
+                  >
+                    <i class="bi bi-megaphone me-2"></i>
+                    <span>NEWS</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-baseline"
+                    href="tour.html"
+                  >
+                    <i class="bi bi-globe me-2"></i>
+                    <span>TOUR</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-baseline"
+                    href="music.html"
+                  >
+                    <svg
+                      id="guitar-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      version="1.1"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns:svgjs="http://svgjs.com/svgjs"
+                      width="1em"
+                      height="1em"
+                      x="0"
+                      y="0"
+                      viewBox="0 0 512 512"
+                      style="margin-right: 0.5rem"
+                      xml:space="preserve"
+                    >
+                      <g>
+                        <path
+                          d="M257.616 283.046c10.809 22.308 34.826 21.094 45.079 10.841 14.036-14.036 36.418.516 18.454 24.892-21.021 28.525-56.041 31.982-69.691 45.632-22.786 22.786-16.124 64.747-55.456 104.079-29.396 29.396-77.496 29.396-106.892 0l-57.063-57.063c-29.395-29.395-29.395-77.497 0-106.892 39.011-39.011 83.361-38.009 108.774-63.422 20.896-20.896 26.57-52.913 47.151-81.727 8.808-12.332 24.955-21.314 37.858-22.892 16.679-2.04 24.706 16.254 9.994 29.198-5.417 4.766-11.345 9.978-12.426 19.702-1.388 12.485 6.814 28.925 20.07 32.702M374.147 97.069l5.226-22.1 89.506-50.615c8.459-4.816 19.413-3.618 26.629 3.598 8.655 8.655 8.655 22.689 0 31.344-4.714 4.714-11.023 6.86-17.19 6.439l-49.186 59.133-25.666 1.519"
+                          style="
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                            stroke-width: 20.0001;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 22.9256;
+                          "
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          fill="none"
+                          stroke="white"
+                          stroke-width="20.0001"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="22.9256"
+                          data-original="#000000"
+                        ></path>
+                        <path
+                          d="M206.856 253.822 374.148 97.07l29.318 29.318-159.735 170.458-40.042-40.042c-11.432-11.433-30.294-3.713-49.492 29.538-13.444 23.285-45.205 8.913-54.635 44.106-7.553 28.189 24.228 53.653 45.861 75.286 33.924 33.924-22.921 45.826-3.392 83.812M187.414 306.051l23.556 23.557M154.652 338.812l23.557 23.557"
+                          style="
+                            fill-rule: evenodd;
+                            clip-rule: evenodd;
+                            stroke-width: 20.0001;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-miterlimit: 22.9256;
+                          "
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          fill="none"
+                          stroke="white"
+                          stroke-width="20.0001"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="22.9256"
+                          data-original="#000000"
+                        ></path>
+                      </g>
+                    </svg>
+                    <span>MUSIC</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-baseline"
+                    href="#"
+                  >
+                    <i class="bi bi-film me-2"></i>
+                    <span>MEDIA</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-baseline"
+                    href="about.html"
+                  >
+                    <svg
+                      id="about-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      version="1.1"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns:svgjs="http://svgjs.com/svgjs"
+                      width="1em"
+                      height="1em"
+                      x="0"
+                      y="0"
+                      viewBox="0 0 256 256"
+                      style="margin-right: 0.5rem"
+                      xml:space="preserve"
+                    >
+                      <g>
+                        <path
+                          d="M128 182.794a39.687 39.687 0 1 1 39.687-39.686A39.732 39.732 0 0 1 128 182.794Zm0-69.373a29.687 29.687 0 1 0 29.687 29.687A29.721 29.721 0 0 0 128 113.421Z"
+                          fill="#ffffff"
+                          data-original="#000000"
+                        ></path>
+                        <path
+                          d="M180.03 255.637H75.97a5 5 0 0 1-5-5v-20.813a57.03 57.03 0 0 1 114.06 0v20.813a5 5 0 0 1-5 5Zm-99.06-10h94.06v-15.813a47.03 47.03 0 0 0-94.06 0ZM198.97 121.108a39.687 39.687 0 1 1 39.686-39.687 39.733 39.733 0 0 1-39.686 39.687Zm0-69.374a29.687 29.687 0 1 0 29.686 29.687 29.721 29.721 0 0 0-29.686-29.687Z"
+                          fill="#ffffff"
+                          data-original="#000000"
+                        ></path>
+                        <path
+                          d="M251 193.95h-68.213a5 5 0 1 1 0-10H246v-15.812a47.045 47.045 0 0 0-70.128-40.978 5 5 0 0 1-4.918-8.707A57.045 57.045 0 0 1 256 168.138v20.812a5 5 0 0 1-5 5ZM57.03 121.108a39.687 39.687 0 1 1 39.687-39.687 39.733 39.733 0 0 1-39.687 39.687Zm0-69.374a29.687 29.687 0 1 0 29.687 29.687A29.721 29.721 0 0 0 57.03 51.734Z"
+                          fill="#ffffff"
+                          data-original="#000000"
+                        ></path>
+                        <path
+                          d="M73.213 193.95H5a5 5 0 0 1-5-5v-20.812a57.045 57.045 0 0 1 85.046-49.685 5 5 0 1 1-4.919 8.707A47.045 47.045 0 0 0 10 168.138v15.812h63.213a5 5 0 1 1 0 10ZM128 79.716a39.687 39.687 0 1 1 39.687-39.687A39.733 39.733 0 0 1 128 79.716Zm0-69.374a29.687 29.687 0 1 0 29.687 29.687A29.721 29.721 0 0 0 128 10.342Z"
+                          fill="#ffffff"
+                          data-original="#000000"
+                        ></path>
+                      </g>
+                    </svg>
+                    <span>ABOUT</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-baseline"
+                    href="merch.html"
+                  >
+                    <svg
+                      id="merch-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      version="1.1"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns:svgjs="http://svgjs.com/svgjs"
+                      width="1em"
+                      height="1em"
+                      x="0"
+                      y="0"
+                      viewBox="0 0 682.667 682.667"
+                      style="margin-right: 0.5rem"
+                      xml:space="preserve"
+                    >
+                      <g>
+                        <defs>
+                          <clipPath id="a" clipPathUnits="userSpaceOnUse">
+                            <path
+                              d="M0 512h512V0H0Z"
+                              fill="#ffffff"
+                              data-original="#000000"
+                            ></path>
+                          </clipPath>
+                        </defs>
+                        <g
+                          clip-path="url(#a)"
+                          transform="matrix(1.33333 0 0 -1.33333 0 682.667)"
+                        >
+                          <path
+                            d="M0 0h-58.092c0-33.137-26.863-60-60-60s-60 26.863-60 60h-58.092l-116.902-81.156 51.621-73.724 33.373 22.669V-420h300v287.789l33.373-22.669 51.621 73.724z"
+                            style="
+                              stroke-width: 30;
+                              stroke-linecap: butt;
+                              stroke-linejoin: miter;
+                              stroke-miterlimit: 10;
+                              stroke-dasharray: none;
+                              stroke-opacity: 1;
+                            "
+                            transform="translate(374.092 466)"
+                            fill="none"
+                            stroke="#ffffff"
+                            stroke-width="30"
+                            stroke-linecap="butt"
+                            stroke-linejoin="miter"
+                            stroke-miterlimit="10"
+                            stroke-dasharray="none"
+                            stroke-opacity=""
+                            data-original="#000000"
+                          ></path>
+                        </g>
+                      </g>
+                    </svg>
+  
+                    <span>MERCH</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex align-items-baseline"
+                    href="contact.html"
+                  >
+                    <i class="bi bi-envelope me-2"></i>
+                    <span>CONTACT</span>
+                  </a>
+                </li>
+              </ul>
             </div>
-        </div>
-    </nav>
-    <main class="container-fluid p-0" id="main">
+          </div>
+        </nav>
+      </header>
+          <!-- Main content -->
+    <main class="container-fluid p-0">
         <section class="container-fluid p-0" id="media-section">
             <div class="container-fluid p-0" id="media-div">
                 <div class="p-5" id="photos-div">
@@ -296,12 +435,37 @@
             </div>
         </section>
     </main>
-    <footer id="bottom">
-        <i class="bi bi-youtube"></i>
-        <i class="bi bi-spotify"></i>
-        <i class="bi bi-instagram"></i>
-        <i class="bi bi-facebook"></i>
-    </footer>
+  <!-- Footer -->
+  <footer id="bottom">
+    <a
+      class="footer-link"
+      id="youtube-link"
+      href="https://www.youtube.com/channel/UCfOTTeREY6_1LSW5M0bdG7g"
+      target="_blank"
+      ><i class="bi bi-youtube"></i
+    ></a>
+    <a
+      class="footer-link"
+      id="spotify-link"
+      href="https://open.spotify.com/artist/2cnMpRsOVqtPMfq7YiFE6K"
+      target="_blank"
+      ><i class="bi bi-spotify"></i
+    ></a>
+    <a
+      class="footer-link"
+      id="instagram-link"
+      href="https://www.instagram.com/vanhalen/?hl=en"
+      target="_blank"
+      ><i class="bi bi-instagram"></i
+    ></a>
+    <a
+      class="footer-link"
+      id="facebook-link"
+      href="https://www.facebook.com/VanHalen/"
+      target="_blank"
+      ><i class="bi bi-facebook"></i
+    ></a>
+  </footer>
 </body>
 
 </html>
