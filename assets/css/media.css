@@ -96,12 +96,12 @@ h1 {
 }
 
 #carousel-imgs,
-#carousel-videos {
+#carousel-videos, #carousel-interviews {
     width: 80%;
 }
 
 #carousel-imgs>div.carousel-inner img,
-#carousel-videos>div.carousel-inner iframe {
+#carousel-videos>div.carousel-inner iframe, #carousel-interviews>div.carousel-inner iframe {
     height: 300px;
 }
 
@@ -192,7 +192,7 @@ h1 {
 @media(min-width: 768px) {
 
     #carousel-imgs>div.carousel-inner img,
-    #carousel-videos>div.carousel-inner iframe {
+    #carousel-videos>div.carousel-inner iframe, #carousel-interviews>div.carousel-inner iframe {
         height: 400px;
     }
 }
@@ -234,7 +234,7 @@ h1 {
     }
 
     #carousel-imgs,
-    #carousel-videos {
+    #carousel-videos, #carousel-interviews {
         width: 50%;
     }
 
@@ -302,7 +302,7 @@ h1 {
     }
 
     #carousel-imgs>div.carousel-inner img,
-    #carousel-videos>div.carousel-inner iframe {
+    #carousel-videos>div.carousel-inner iframe, #carousel-interviews>div.carousel-inner iframe {
         height: 500px;
     }
 }
