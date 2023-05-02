@@ -73,6 +73,9 @@ svg#media-icon {
 main {
   background: linear-gradient(to top left, white 50%, #8c92ac 50%);
 }
+#table-section{
+  width: 90%;
+}
 .table {
   margin-bottom: 3em;
   font-weight: normal;
