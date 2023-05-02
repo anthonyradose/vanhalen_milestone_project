@@ -287,10 +287,32 @@
         </div>
       </nav>
     </header>
-  <main class="p-5" id="main">
-    <section class="container p-5">
-      <div class="container">
-        <h2>TICKET PURCHASE FORM</h2>
+  <main id="main">
+    <section class="container-fluid p-5" id="section1">
+      <h1 class="display-1 mt-5">SEND FAN MAIL!</h1>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+      <a href="#section2" id="arrow-container">
+        <div class="arrow"></div>
+        <div class="arrow"></div>
+
+      </a>
+    </section>
+    <section class="container-fluid p-5" id="section2">
+        <h2 class="display-2 my-5">BUY TICKETS!</h2>
         <form method="post" action="process_form.php">
           <div class="form-group">
             <label for="name">Full Name:</label>
@@ -444,8 +466,45 @@
           </div>
           <button type="submit" class="btn btn-primary">Buy Tickets</button>
         </form>
-
+        <a href="#section3" id="arrow-container">
+          <div class="arrow" id="section2-arrow"></div>
+        </a>
     </section>
+    <section class="container-fluid p-5" id="section3">
+      <h3 class="display-3">PREORDER NEW ALBUM!</h3>
+      <form method="post" action="#">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Shipping Address:</label>
+          <textarea class="form-control" id="address" name="address" rows="3" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" class="form-control" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="quantity">Number of Copies:</label>
+          <input type="number" class="form-control" id="quantity" name="quantity" required>
+        </div>
+        <div class="form-group">
+          <label for="payment">Payment Method:</label>
+          <select class="form-control" id="payment" name="payment" required>
+            <option value="">Select a payment method</option>
+            <option value="credit_card">Credit Card</option>
+            <option value="paypal">PayPal</option>
+            <option value="cash_on_delivery">Cash on Delivery</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  </section>
   </main>
   <!-- Footer -->
   <footer id="bottom">

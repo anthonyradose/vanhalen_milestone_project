@@ -84,6 +84,7 @@ h1 {
   text-shadow: -2px -2px 0em #000;
   color: white;
   font-weight: 300;
+  word-spacing: 0.3em;
 }
 
 /* Footer: */
