@@ -97,7 +97,9 @@ main {
   display: flex;
   background: linear-gradient(to top left, white 50%, #002f6c 50%);
 }
-
+p{
+  font-weight: normal;
+}
 #merch-container {
   margin: 3em auto;
 }

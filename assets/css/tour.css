@@ -75,6 +75,7 @@ main {
 }
 .table {
   margin-bottom: 3em;
+  font-weight: normal;
 }
 h1 {
   display: flex;

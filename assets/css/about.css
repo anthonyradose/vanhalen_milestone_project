@@ -93,7 +93,9 @@ svg#media-icon {
   margin: 0;
   padding: 10%;
 }
-
+p{
+  font-weight: normal;
+}
 #vhalen-div {
   background: linear-gradient(to top left, white 50%, cyan 50%);
 }
@@ -112,7 +114,8 @@ svg#media-icon {
 }
 
 #michael-div {
-  background: linear-gradient(to top left, white 50%, #002f6c 50%);
+  background: linear-gradient(to top left, #ce1141 50%, #002f6c 50%);
+  color: white;
 }
 
 .card {

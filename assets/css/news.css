@@ -84,7 +84,6 @@ svg#media-icon {
     font-weight: normal;
     text-align: center;
     font-family: lato;
-    padding: 10%;
     word-spacing: 0.3em;
     background-color: transparent;
 }
@@ -123,6 +122,9 @@ padding-right: 0;
     padding: 3em;
     color: white;
     font-weight: normal;
+}
+#new-album-info{
+    border-bottom: 3px solid white;
 }
 
 
@@ -194,6 +196,11 @@ padding-right: 0;
         clip-path: polygon(0 0, 100% 0, 100% 91%, 82% 100%, 0 100%);
     padding-right: 0;
     }
+    #new-album-info{
+        border-bottom: none;
+        border-right: 3px solid white;
+    }
+    
 }
 
 @media(max-width: 991px) {
