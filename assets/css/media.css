@@ -310,6 +310,11 @@ h1 {
   #carousel-interviews > div.carousel-inner iframe {
     height: 500px;
   }
+  #carousel-imgs,
+  #carousel-videos,
+  #carousel-interviews {
+    width: 50%;
+  }
 }
 
 @media (min-width: 1400px) {
