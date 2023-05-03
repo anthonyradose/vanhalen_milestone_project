@@ -81,7 +81,7 @@ svg#media-icon {
 
 /* Main: */
 h1 {
-  height: 30vh;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,7 +99,7 @@ h1 {
 #carousel-imgs,
 #carousel-videos,
 #carousel-interviews {
-  width: 80%;
+  width: 90%;
 }
 
 #carousel-imgs > div.carousel-inner img,
@@ -190,6 +190,12 @@ h1 {
 }
 
 @media (min-width: 576px) {
+  #carousel-imgs,
+#carousel-videos,
+#carousel-interviews {
+  width: 70%;
+}
+
 }
 
 @media (min-width: 768px) {
@@ -198,6 +204,12 @@ h1 {
   #carousel-interviews > div.carousel-inner iframe {
     height: 400px;
   }
+  #carousel-imgs,
+#carousel-videos,
+#carousel-interviews {
+  width: 60%;
+}
+
 }
 
 @media (max-width: 991px) {
@@ -230,13 +242,6 @@ h1 {
     flex-direction: column;
     align-items: normal;
   }
-
-  #carousel-imgs,
-  #carousel-videos,
-  #carousel-interviews {
-    width: 50%;
-  }
-
   #photos-div {
     display: flex;
     flex-direction: column;
@@ -292,6 +297,7 @@ h1 {
   #home-icon {
     font-size: 1.3rem;
   }
+
 }
 
 @media (min-width: 1200px) {
