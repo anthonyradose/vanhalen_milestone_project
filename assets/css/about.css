@@ -110,6 +110,9 @@ p{
   background: linear-gradient(to top right, lightslategrey 50%, black 50%);
   color: white;
 }
+#alex-div img{
+  width: 100%;
+}
 
 #michael-container {
   background: linear-gradient(to top left, #ce1141 50%, #002f6c 50%);
