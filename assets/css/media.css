@@ -95,13 +95,13 @@ h1 {
   margin-bottom: 3em;
 }
 
-#carousel-imgs,
+#carousel-photos,
 #carousel-videos,
 #carousel-interviews {
   width: 90%;
 }
 
-#carousel-imgs > div.carousel-inner img,
+#carousel-photos > div.carousel-inner img,
 #carousel-videos > div.carousel-inner iframe,
 #carousel-interviews > div.carousel-inner iframe {
   height: 300px;
@@ -127,7 +127,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
 }
-#photos-carousel {
+#carousel-photos {
   border: 7px solid yellow;
   border-radius: 0.3rem;
 }
@@ -190,7 +190,7 @@ h1 {
 
 /* Breakpoints: */
 @media (min-width: 576px) {
-  #carousel-imgs,
+  #carousel-photos,
   #carousel-videos,
   #carousel-interviews {
     width: 70%;
@@ -198,12 +198,12 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  #carousel-imgs > div.carousel-inner img,
+  #carousel-photos > div.carousel-inner img,
   #carousel-videos > div.carousel-inner iframe,
   #carousel-interviews > div.carousel-inner iframe {
     height: 400px;
   }
-  #carousel-imgs,
+  #carousel-photos,
   #carousel-videos,
   #carousel-interviews {
     width: 60%;
@@ -302,12 +302,12 @@ h1 {
     padding: 0 3em;
   }
 
-  #carousel-imgs > div.carousel-inner img,
+  #carousel-photos > div.carousel-inner img,
   #carousel-videos > div.carousel-inner iframe,
   #carousel-interviews > div.carousel-inner iframe {
     height: 500px;
   }
-  #carousel-imgs,
+  #carousel-photos,
   #carousel-videos,
   #carousel-interviews {
     width: 50%;

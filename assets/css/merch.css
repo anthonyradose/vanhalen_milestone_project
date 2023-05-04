@@ -100,9 +100,7 @@ main {
 p{
   font-weight: normal;
 }
-#merch-container {
-  margin: 3em auto;
-}
+
 #merch1, #merch2, #merch3{
   border: 7px solid black;
   border-radius: 0.3rem;
