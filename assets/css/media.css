@@ -81,7 +81,6 @@ svg#media-icon {
 
 /* Main: */
 h1 {
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -189,13 +188,13 @@ h1 {
   filter: brightness(79%);
 }
 
+/* Breakpoints: */
 @media (min-width: 576px) {
   #carousel-imgs,
-#carousel-videos,
-#carousel-interviews {
-  width: 70%;
-}
-
+  #carousel-videos,
+  #carousel-interviews {
+    width: 70%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -205,11 +204,10 @@ h1 {
     height: 400px;
   }
   #carousel-imgs,
-#carousel-videos,
-#carousel-interviews {
-  width: 60%;
-}
-
+  #carousel-videos,
+  #carousel-interviews {
+    width: 60%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -297,7 +295,6 @@ h1 {
   #home-icon {
     font-size: 1.3rem;
   }
-
 }
 
 @media (min-width: 1200px) {
