@@ -1,7 +1,4 @@
-.table {
-  margin-bottom: 3em;
-}
-
+/* Body: */
 #contact-page {
   font-family: "Lato", sans-serif;
   font-weight: 300;
@@ -11,55 +8,6 @@
   background-color: rgba(0, 255, 255, 0.9);
   background-attachment: fixed;
   background-position: center;
-}
-
-h1, h2, h3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-shadow: -2px -2px 0em #000;
-  color: white;
-  font-weight: 300;
-  word-spacing: 0.3em;
-}
-form {
-  width: 70%;
-}
-#section1 {
-  background: linear-gradient(to top left, white 50%, #ffbcd9 50%);
-  background-size: 100% 100%;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-#vh-mail-img{
-  height: 300px;
-  width: 100%;
-}
-#vh-tour-img{
-  height: 300px;
-}
-#section2 {
-  background: linear-gradient(to top right, white 50%, yellow 50%);
-  background-size: 100% 100%;
-
-  scroll-margin-top: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-#section3 {
-  background: linear-gradient(to top left, white 50%, black 50%);
-  background-size: 100% 100%;
-
-  scroll-margin-top: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 /* Header/Navbar CSS: */
@@ -137,12 +85,68 @@ svg#media-icon {
   display: flex;
 }
 
+/* Main: */
+h1,
+h2,
+h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: -2px -2px 0em #000;
+  color: white;
+  font-weight: 300;
+  word-spacing: 0.3em;
+}
+form {
+  width: 70%;
+}
+#section1 {
+  background: linear-gradient(to top left, white 50%, #ffbcd9 50%);
+  background-size: 100% 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#vh-mail-img {
+  height: 300px;
+  width: 100%;
+}
+#vh-tour-img {
+  height: 300px;
+}
+.table {
+  margin-bottom: 3em;
+}
+#section2 {
+  background: linear-gradient(to top right, white 50%, yellow 50%);
+  background-size: 100% 100%;
+
+  scroll-margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#section3 {
+  background: linear-gradient(to top left, white 50%, black 50%);
+  background-size: 100% 100%;
+
+  scroll-margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 tr .continent-td {
   background-color: yellow;
   text-align: center;
 }
 
-#arrow-container {
+#arrow-container1,
+#arrow-container2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -223,6 +227,7 @@ tr .continent-td {
   filter: brightness(79%);
 }
 
+/* Breakpoints: */
 @media (min-width: 576px) {
 }
 
@@ -276,10 +281,12 @@ tr .continent-td {
   #home-icon {
     font-size: 1.3rem;
   }
-  #section1, #section2, #section3{
+  #section1,
+  #section2,
+  #section3 {
     height: 90vh;
   }
-  #vh-mail-img{
+  #vh-mail-img {
     height: auto;
     width: auto;
   }
