@@ -99,6 +99,7 @@ h3 {
 }
 form {
   width: 70%;
+  font-weight: normal;
 }
 #section1 {
   background: linear-gradient(to top left, white 50%, #ffbcd9 50%);
