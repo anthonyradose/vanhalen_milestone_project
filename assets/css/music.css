@@ -89,7 +89,10 @@ h1 {
   word-spacing: 0.3em;
   text-shadow: -2px -2px 0em #000;
 }
-
+#diver-down-h2, #vh2-h2{
+  color: white;
+  mix-blend-mode: difference;
+}
 #album1-container,
 #album2-container {
   margin: 3em auto;

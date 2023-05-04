@@ -121,7 +121,8 @@ form {
   margin-bottom: 3em;
 }
 #section2 {
-  background: linear-gradient(to top right, white 50%, yellow 50%);
+  background: linear-gradient(to top right, white 50%, #FFD700
+  50%);
   background-size: 100% 100%;
 
   scroll-margin-top: 10vh;
@@ -131,7 +132,7 @@ form {
   justify-content: center;
 }
 #section3 {
-  background: linear-gradient(to top left, white 50%, black 50%);
+  background: linear-gradient(to top left, white 50%, #CE1141 50%);
   background-size: 100% 100%;
 
   scroll-margin-top: 10vh;
