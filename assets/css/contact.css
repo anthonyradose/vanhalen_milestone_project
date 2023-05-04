@@ -34,6 +34,13 @@ form {
   align-items: center;
   justify-content: center;
 }
+#vh-mail-img{
+  height: 300px;
+  width: 100%;
+}
+#vh-tour-img{
+  height: 300px;
+}
 #section2 {
   background: linear-gradient(to top right, white 50%, yellow 50%);
   background-size: 100% 100%;
@@ -271,6 +278,10 @@ tr .continent-td {
   }
   #section1, #section2, #section3{
     height: 90vh;
+  }
+  #vh-mail-img{
+    height: auto;
+    width: auto;
   }
 }
 
