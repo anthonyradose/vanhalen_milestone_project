@@ -171,11 +171,13 @@ git clone `https://github.com/myusername/vanhalen_milestone_project.git`
 
 2. Opened the project folder in Visual Studio Code (VSCode) by selecting "Open Folder" from the File menu and choosing the appropriate directory.
 
-3. Made any necessary changes and committed them to the Git repository using the following commands:
-git add .
-git commit -m "Added x feature to..."
-Pushed the changes to the GitHub repository:
-git push origin main
+3. Made any necessary changes and committed them to the Git repository using the following commands:  
+Add changes:  
+`git add .`  
+Commit changes:  
+`git commit -m "Added x feature to..."`.  
+Pushed the changes to the GitHub repository:  
+`git push origin main`
 
 4. Opened any of the HTML files (e.g., index.html, tour.html, media.html, etc.) in a web browser of my choice directly from the local project directory.
 
