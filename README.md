@@ -139,4 +139,43 @@ Please note that this project is still a work in progress and manual testing has
 
 # 6.Deployment
 
-The site was deployed with Github
+I deployed the website initially using Gitpod and later continued development using Visual Studio Code (VSCode). Here are the steps I followed:
+
+**With Gitpod:**
+1. Created a new repository on GitHub by logging into my GitHub account and selecting "New" repository.
+
+2. Named the repository "vanhalen_milestone_project" and added a brief description.
+
+3. Selected the desired options for repository visibility (public or private) and created the repository.
+
+4. Once the repository was created, I navigated to the repository page on GitHub.
+
+5. Clicked on the "Gitpod" button on the GitHub repository page.
+
+6. This action automatically launched the Gitpod IDE, providing me with an online development environment preconfigured with the repository.
+
+7. Developed and tested the website within the Gitpod workspace, using the Gitpod IDE features and tools.
+
+8. Previewed the website by launching a local server within Gitpod.
+
+9. Accessed the live preview of the website in the browser within the Gitpod workspace.
+
+10. The site was fully deployed and accessible for testing and demonstration purposes within Gitpod.
+
+
+
+**With VScode:**
+
+1. Cloned the Git repository to a local directory using the following command:
+git clone https://github.com/your-username/vanhalen_milestone_project.git
+
+2. Opened the project folder in Visual Studio Code (VSCode) by selecting "Open Folder" from the File menu and choosing the appropriate directory.
+
+3. Made any necessary changes and committed them to the Git repository using the following commands:
+git add .
+git commit -m "Added x feature to..."
+Pushed the changes to the GitHub repository:
+git push origin main
+
+4. Opened any of the HTML files (e.g., index.html, tour.html, media.html, etc.) in a web browser of my choice directly from the local project directory.
+
