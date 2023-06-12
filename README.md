@@ -167,7 +167,7 @@ I deployed the website initially using Gitpod and later continued development us
 **With VScode:**
 
 1. Cloned the Git repository to a local directory using the following command:
-git clone https://github.com/myusername/vanhalen_milestone_project.git
+git clone `https://github.com/myusername/vanhalen_milestone_project.git`
 
 2. Opened the project folder in Visual Studio Code (VSCode) by selecting "Open Folder" from the File menu and choosing the appropriate directory.
 
