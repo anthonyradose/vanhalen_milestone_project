@@ -249,7 +249,6 @@ h1 {
   #nav-ul > li > a {
     color: white;
   }
-
   #home-lg {
     display: flex;
   }
@@ -257,8 +256,19 @@ h1 {
   #home-icon {
     font-size: 1.3rem;
   }
+  .album-h2, .buy-vinyl-div{
+    height: 10%;
+    margin: 0;
+  }
+  img.img-fluid, iframe{
+    height: 90%;
+  }
 }
-
+@media(min-width: 992px) and (max-width: 1154px){
+#album-3-h2{
+  font-size: 1.5em;
+}
+}
 @media (min-width: 1200px) {
   #navvy {
     padding: 0 3em;
