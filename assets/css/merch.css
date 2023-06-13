@@ -86,11 +86,8 @@ svg#media-icon {
   justify-content: center;
   text-shadow: -2px -2px 0em #000;
   text-align: center;
-  align-items: center;
   font-weight: 300;
   color: white;
-  margin: 0;
-  padding: 10%;
 }
 
 main {

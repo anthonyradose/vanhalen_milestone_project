@@ -108,7 +108,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+
 }
 #vh-mail-img {
   height: 300px;
@@ -129,7 +129,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  
 }
 #section3 {
   background: linear-gradient(to top left, white 50%, #CE1141 50%);
@@ -139,7 +139,6 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 tr .continent-td {
