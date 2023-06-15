@@ -15,32 +15,20 @@ The live website can be found [here](https://anthonyradose.github.io/vanhalen_mi
 ### Disclaimer: 
 This project was created solely for educational purposes to showcase my design and web development skills and as a tribute to the band. All content included on this website is attributed to its respective owners, and no infringement of copyright is intended. This project is not for commercial purposes and is not affiliated with Van Halen.
 
-## Table of Contents:
+---
 
-The website has different sections: 
-
-- The homepage displays the band's logo and their "new" single, which is a Youtube video of their song "Jump" that would have been released at the time.
-- The tour section provides information about the band's "upcoming" world tour starting in 1984.
-- The media section includes photos and videos of the band.
-- The music section displays the album covers and includes embedded Spotify playlists.
-- The merch section which fictionalizes some items to buy.
-- The news section announces the "upcoming" release of their 1984 album.
-- The contact section has three fictional forms: one for fan mail, one to purchase tickets for the upcoming tour, and the last one to pre-order the album.
-
-### 1. User Experience
+## User Experience
     
 - Purpose of Project
 - User Stories
 - Web Design
 - Wire frames
 
-1. User Experience
-
-1.1 Purpose of Project -    
+### 1. Purpose of Project -    
 The aim is to reimagine what it would be like if today's internet existed during 1983.
 In addition to providing information about the band, their music, and their iconic world tour of 1984, there's a fictional merch section, a ticket-buying experience for the tour, and even a platform to send fan mail and pre-order their upcoming album, '1984'. While these features are not functional in reality, they simulate the experience of engaging with Van Halen's world as if you were a passionate fan in 1983. Through these interactive elements, the aim is to capture the nostalgia and excitement surrounding Van Halen at the height of their fame and provide a portal to that era.
 
-1.2 User Stories -
+### 2. User Stories -
 1. As a user, I want to know about the band and their history. I expect to find information about the band's formation and significant milestones in their career. Additionally, I would like to learn about the individual band members and their contributions to Van Halen's success.
 2. As a user, I want to explore Van Halen's music and discography. I expect to find a well-organised and easily accessible discography section that lists their albums, along with album cover art and track listings. It would be great to have the ability to listen to song previews or access full tracks through embedded Spotify playlists, allowing me to immerse myself in Van Halen's iconic sound.
 3. As a user, I want to connect with Van Halen's online presence. I look forward to finding links to their official social media profiles, such as Facebook and Instagram. This would enable me to stay up-to-date with the band's latest news, announcements, and engage with other fans in the community.
@@ -50,12 +38,19 @@ In addition to providing information about the band, their music, and their icon
 7. As a user, I want to immerse myself in the fictional merch section and browse through the available merchandise inspired by Van Halen's iconic branding. It would be great to have an option to "purchase" these fictional items for added engagement.
 8. As a user, I want to feel connected to Van Halen by utilizing the fictional contact section. I expect to find a fan mail form where I can express my admiration for the band, a ticket purchase form to simulate buying tickets for their upcoming tour, and a pre-order form for their anticipated 1984 album. Although these forms are fictional, they can provide a fun and interactive way to engage with the band's imagined activities.
 
-1.3 Web Design -
-The website features a design that is inspired by the aesthetic of the 1980s, with a color scheme that is reminiscent of the band's aesthetic. The layout is clean and easy to navigate, with a simple menu at the top of the page and clear sections for different types of content.
+### 3. Web Design -
 
+#### Color Scheme: 
+The website features a design that is inspired by the aesthetic of the 1980s, with a color scheme that is reminiscent of the band's aesthetic. The layout is clean and easy to navigate, with a simple menu at the top of the page and clear sections for different types of content.
+#### Typography: 
+Lato, sans-serif.
+
+### 4. Wireframe: 
 Note: Wireframes for this project are not currently available. I am working on creating them and will update the repository as soon as they are ready
 
-## 2.Website Features
+---
+
+## Website Features
 
 - Animated Nav Bar, with dropdown
 
@@ -90,8 +85,9 @@ Upon visiting the website, users are greeted with the band's logo and a Youtube 
 
 ![](https://live.staticflickr.com/65535/52869533130_57c8dc2784.jpg)  
 
+---
 
-## 3.Made with:
+## Made with:
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML) (was used for structuring and presenting content of the website)
 * [CSS](https://en.wikipedia.org/wiki/CSS) (used for the styling of the content)
@@ -113,7 +109,9 @@ Upon visiting the website, users are greeted with the band's logo and a Youtube 
 * [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) (used for validating the CSS code)
 * [Code Institute](https://codeinstitute.net/) (this is where i got the idea for animating the main logo in the nav bar)
 
-## 4.Testing
+---
+
+## Testing
 
 ### HTML Validation
 
@@ -140,7 +138,9 @@ I have carried out manual testing on the following devices to test responsivenes
 
 Please note that this project is still a work in progress and manual testing has not yet been documented
 
-## 6.Deployment
+---
+
+## Deployment
 
 I deployed the website initially using Gitpod and later continued development using Visual Studio Code (VSCode). Here are the steps I followed:
 
@@ -181,6 +181,8 @@ Pushed the changes to the GitHub repository:
 `git push origin main`
 
 4. Opened any of the HTML files (e.g., index.html, tour.html, media.html, etc.) in a web browser of my choice directly from the local project directory.
+
+---
 
 ## Credits
 
