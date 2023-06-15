@@ -95,19 +95,13 @@ Upon visiting the website, users are greeted with the band's logo and a Youtube 
 * [Bootstrap](https://www.bootstrapcdn.com/) (used for the responsive code in the header for multiple devices)
 * [wikimedia](https://commons.wikimedia.org/wiki/Main_Page)
 * [flaticon](https://www.flaticon.com/)
-* [Van Halen's official Youtube channel](https://www.youtube.com/@VanHalen/featured)
-* [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
-* [spotify](https://open.spotify.com/)
-* [getty](https://www.gettyimages.co.uk/)
-* [Brett Jordan](https://www.flickr.com/photos/x1brett/27398345319)
-* [8Stringking](https://github.com/8Stringking/Hyperion-Deathcore-Milestone)
 * [Chrome](https://www.google.com/intl/en_uk/chrome/) (used to debug and test the source code using HTML5 and to test site responsiveness)
 * [GitHub](https://github.com/) (used to create the repository and store the projects code after pushed from Git)
 * [Gitpod](https://www.gitpod.io/) (used for the editing of code within the project for the site)
 * [vscode](https://code.visualstudio.com/)
 * [W3C Markup](https://validator.w3.org/) (used for validating the html5 code)
 * [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) (used for validating the CSS code)
-* [Code Institute](https://codeinstitute.net/) (this is where i got the idea for animating the main logo in the nav bar)
+* [Squoosh](https://squoosh.app/) (Used for image decompression)
 
 ---
 
@@ -185,4 +179,12 @@ Pushed the changes to the GitHub repository:
 ---
 
 ## Credits
-
+* [CMetalCore via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Van_Halen_logo.svg) (For band logo in navbar)
+* [1000 Logos](https://1000logos.net/van-halen-logo) (For main logo on homepage - click on 'DOWNLOAD PNG' to access all band's logos, including the one I used)
+* [Carl Lender via Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Eddie_Van_Halen_at_the_New_Haven_Coliseum.jpg) (For Eddie Van Halen image)
+* [Van Halen's official Youtube channel](https://www.youtube.com/@VanHalen/featured) (For music videos)
+* [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
+* [spotify](https://open.spotify.com/) (For embedded Spotify album/playlists in Music section)
+* [getty](https://www.gettyimages.co.uk/) (For Photo Gallery in Media section, Van Halen and David Lee Roth images in the About section all getty images are credited in the footers of the images themselves)
+* [Brett Jordan](https://www.flickr.com/photos/x1brett/27398345319) (Used for Van Halen's 1984 album cover art in News, Music and Contact sections)
+* [The Mighty Van Halen](https://www.themightyvanhalen.net/wp-content/uploads/1984-tourdates.jpg) (Used for 1984 tour poster in Tour and Contact sections)
