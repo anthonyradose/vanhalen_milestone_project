@@ -176,6 +176,22 @@ Pushed the changes to the GitHub repository:
 
 4. Opened any of the HTML files (e.g., index.html, tour.html, media.html, etc.) in a web browser of my choice directly from the local project directory.
 
+**Fork and Clone Repository:** 
+
+1. Visit the GitHub repository and click on the "Fork" button in the top-right corner. This will create a copy of the repository under your GitHub account.
+
+2. On your forked repository's page, click on the "Code" button and copy the repository's URL.
+
+3. Open your preferred Command Line Interface (e.g., Terminal, Git Bash) and navigate to the directory where you want to clone the repository.
+
+4. Enter the following command in the command line:
+`git clone [repository URL]`
+
+5. Navigate into the Repository: Use the cd command to navigate into the cloned repository:
+`cd [repository name]`
+
+(Replace [repository URL] with the actual URL of your forked repository and [repository name] with the name of the cloned repository on your local machine.)
+
 ---
 
 ## Credits
