@@ -101,6 +101,17 @@ h1 {
   width: 90%;
 }
 
+
+  #carousel-videos > div.carousel-indicators, #carousel-interviews > div.carousel-indicators{
+margin-left: 30%;
+margin-right: 30%;
+  }
+  #carousel-videos > button.carousel-control-prev, #carousel-videos > button.carousel-control-next, #carousel-interviews > button.carousel-control-prev, #carousel-interviews > button.carousel-control-next{
+    height: 2rem;
+    top: 45%;
+  }
+
+
 #carousel-photos > div.carousel-inner img,
 #carousel-videos > div.carousel-inner iframe,
 #carousel-interviews > div.carousel-inner iframe {
