@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
     <link
       href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
       integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
-      crossorigin="anonymous">
-    <link href="./assets/css/contact.css" rel="stylesheet">
+      crossorigin="anonymous"
+    />
+    <link href="./assets/css/contact.css" rel="stylesheet" />
     <title>Van Halen Contact Page</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
@@ -69,7 +73,7 @@
                   id="home-lg"
                   href="index.html"
                 >
-                <!-- Van HalenSVG by CMetalCore  This W3C-unspecified vector image was created with Inkscape ., Public domain, via Wikimedia Commons -->
+                  <!-- Van HalenSVG by CMetalCore  This W3C-unspecified vector image was created with Inkscape ., Public domain, via Wikimedia Commons -->
                   <svg
                     id="home-icon"
                     xmlns="http://www.w3.org/2000/svg"
@@ -301,30 +305,33 @@
               class="img-thumbnail"
               src="./assets/images/vh-mail.jpg"
               alt="Thumbnail-like image"
-              id="vh-mail-img">
+              id="vh-mail-img"
+            />
           </div>
           <div class="col-lg-8 row mb-5 mb-lg-0">
             <form action="https://formdump.codeinstitute.net" method="POST">
               <div class="mb-3">
-                <label for="name1" class="form-label">Name</label>
+                <label for="name1" class="form-label">Name:</label>
                 <input
                   type="text"
                   class="form-control"
                   id="name1"
                   name="name1"
-                  required>
+                  required
+                />
               </div>
               <div class="mb-3">
-                <label for="email1" class="form-label">Email</label>
+                <label for="email1" class="form-label">Email:</label>
                 <input
                   type="email"
                   class="form-control"
                   id="email1"
                   name="email1"
-                  required>
+                  required
+                />
               </div>
               <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
+                <label for="message" class="form-label">Message:</label>
                 <textarea
                   class="form-control"
                   id="message"
@@ -335,14 +342,6 @@
               </div>
               <button type="submit" class="btn btn-primary">Send</button>
             </form>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 d-flex justify-content-center">
-            <a href="#section2" id="arrow-container1">
-              <div class="arrow"></div>
-              <div class="arrow"></div>
-            </a>
           </div>
         </div>
       </section>
@@ -357,12 +356,13 @@
           <div
             class="col-lg-4 d-flex justify-content-center align-items-center mb-5 mb-lg-0"
           >
-              <!-- Image source: [1984-tourdates] from [The Mighty Van Halen] ([https://www.themightyvanhalen.net/wp-content/uploads/1984-tourdates.jpg]) -->
+            <!-- Image source: [1984-tourdates] from [The Mighty Van Halen] ([https://www.themightyvanhalen.net/wp-content/uploads/1984-tourdates.jpg]) -->
             <img
               class="img-thumbnail"
               src="./assets/images/vh-tour.jpeg"
               alt="Thumbnail-like image"
-              id="vh-tour-img">
+              id="vh-tour-img"
+            />
           </div>
           <div class="col-lg-8 row mb-5 mb-lg-0">
             <form action="https://formdump.codeinstitute.net" method="POST">
@@ -374,8 +374,8 @@
                   id="name2"
                   name="name2"
                   placeholder="Enter your full name"
-                  required>
-                <div class="invalid-feedback">Please enter your name.</div>
+                  required
+                />
               </div>
               <div class="form-group">
                 <label for="email2">Email:</label>
@@ -385,10 +385,8 @@
                   id="email2"
                   name="email2"
                   placeholder="Enter your email address"
-                  required>
-                <div class="invalid-feedback">
-                  Please enter a valid email address.
-                </div>
+                  required
+                />
               </div>
               <div class="form-group">
                 <label for="phone2">Phone Number:</label>
@@ -399,13 +397,12 @@
                   name="phone2"
                   placeholder="Enter your phone number"
                   required
-                  pattern="[0-9]{10}">
-                <div class="invalid-feedback">
-                  Please enter a valid 10-digit phone number.
-                </div>
+                  pattern="[0-9]{10}"
+                  title="Please enter a valid 10-digit phone number."
+                />
               </div>
               <div class="form-group">
-                <label for="ticket-select">Select a concert:</label>
+                <label for="ticket-select">Select a Concert:</label>
                 <select class="form-control" id="ticket-select">
                   <option value="">Select one...</option>
                   <optgroup label="North America">
@@ -760,10 +757,9 @@
                   name="tickets"
                   placeholder="Enter the number of tickets you wish to purchase"
                   required
-                  min="1">
-                <div class="invalid-feedback">
-                  Please enter a number greater than zero.
-                </div>
+                  min="1"
+                  title=" Please enter a number greater than zero."
+                />
               </div>
               <div class="form-group">
                 <label for="special-requests">Special Requests:</label>
@@ -792,18 +788,11 @@
             </form>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 d-flex justify-content-center">
-            <a href="#section3" id="arrow-container2">
-              <div class="arrow"></div>
-            </a>
-          </div>
-        </div>
       </section>
       <section class="container-fluid p-5" id="section3">
         <div class="row justify-content-center mb-5 mb-lg-0">
           <div class="col-md-12">
-            <h2 class="display-2 text-center">PREORDER NEW ALBUM!</h2>
+            <h2 class="display-2 text-center">PRE-ORDER NEW ALBUM!</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -816,16 +805,18 @@
                   class="form-control"
                   id="name3"
                   name="name3"
-                  required>
+                  required
+                />
               </div>
               <div class="form-group">
-                <label for="email3">Email address:</label>
+                <label for="email3">Email:</label>
                 <input
                   type="email"
                   class="form-control"
                   id="email3"
                   name="email3"
-                  required>
+                  required
+                />
               </div>
               <div class="form-group">
                 <label for="address">Shipping Address:</label>
@@ -844,7 +835,10 @@
                   class="form-control"
                   id="phone3"
                   name="phone3"
-                  required>
+                  pattern="[0-9]{10}"
+                  title="Please enter a valid 10-digit phone number."
+                  required
+                />
               </div>
               <div class="form-group">
                 <label for="quantity">Number of Copies:</label>
@@ -853,7 +847,8 @@
                   class="form-control"
                   id="quantity"
                   name="quantity"
-                  required>
+                  required
+                />
               </div>
               <div class="form-group mb-3">
                 <label for="payment3">Payment Method:</label>
@@ -875,11 +870,12 @@
           <div
             class="col-lg-4 d-flex justify-content-center align-items-center mb-5 mb-lg-0"
           >
-             <!-- image by [Brett Jordan](https://www.flickr.com/photos/x1brett/) licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).  -->
+            <!-- image by [Brett Jordan](https://www.flickr.com/photos/x1brett/) licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).  -->
             <img
               class="img-thumbnail"
               src="./assets/images/VH-album6.jpg"
-              alt="Thumbnail-like image">
+              alt="Thumbnail-like image"
+            />
           </div>
         </div>
       </section>
