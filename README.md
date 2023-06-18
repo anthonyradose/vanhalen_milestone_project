@@ -126,11 +126,40 @@ Upon visiting the website, users are greeted with the band's logo and a Youtube 
 
 ## Testing
 
+
+I used Lighthouse in Chrome DevTools to analyze the performance, accessibility, and adherence to SEO and Best Practices.
+
+**Homepage:**    
+![HOMEPAGE D](https://live.staticflickr.com/65535/52982156806_1f9127aa5f.jpg)
+![HOMEPAGE M](https://live.staticflickr.com/65535/52981546292_fd2ed39d7b_z.jpg)
+**Newspage:**
+![NEWSPAGE D](https://live.staticflickr.com/65535/52982614763_590ddf5aeb.jpg)
+![NEWSPAGE M](https://live.staticflickr.com/65535/52982298914_2b6df4eed7_z.jpg)
+**Tourpage:**
+![TOURPAGE D](https://live.staticflickr.com/65535/52981546337_c4fb2f5592_w.jpg)
+![TOURPAGE M](https://live.staticflickr.com/65535/52982614753_2dfa399893_z.jpg)
+**Musicpage:**
+![MUSICPAGE D](https://live.staticflickr.com/65535/52982528420_98a426d11c_c.jpg)
+![MUSICPAGE M](https://live.staticflickr.com/65535/52982528435_56602d5303_z.jpg)
+**Mediapage:**
+![MEDIAPAGE D](https://live.staticflickr.com/65535/52982298944_af7ffdaf3f.jpg)  
+![MEDIAPAGE M](https://live.staticflickr.com/65535/52982528405_089c57d19c_b.jpg)
+**Aboutpage:**
+![ABOUTPAGE D](https://live.staticflickr.com/65535/52982299019_861dd0eb72.jpg)
+![ABOUTPAGE M](https://live.staticflickr.com/65535/52982614893_8b735e09c3_c.jpg)
+**Merchpage:**
+![MERCHPAGE D](https://live.staticflickr.com/65535/52981546357_99a989c2bc.jpg)
+![MERCHPAGE M](https://live.staticflickr.com/65535/52982528440_66b1bb7c47_z.jpg)
+**Contactpage:**
+![CONTACTPAGE D](https://live.staticflickr.com/65535/52982528450_4e718b2304_c.jpg)
+![CONTACTPAGE M](https://live.staticflickr.com/65535/52982156871_6e1f2185a0_z.jpg)
+
+
 ### HTML Validation
 
-There are some ongiong format issues with the html code that are brought up in the validator. Will resolve as soon as p[ossible.
+There are some minor format issues with the html code that are brought up in the validator. Will resolve as soon as possible.
 
-![HTMKValidation](https://live.staticflickr.com/65535/52869196721_bb5d781128_z.jpg)
+![HTMLValidation](https://live.staticflickr.com/65535/52869196721_bb5d781128_z.jpg)
 
 ### CSS Validation
  
