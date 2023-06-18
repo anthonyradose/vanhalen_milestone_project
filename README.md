@@ -24,11 +24,11 @@ This project was created solely for educational purposes to showcase my design a
 - Web Design
 - Wire frames
 
-### 1. Purpose of Project -    
+### Purpose of Project -    
 The aim is to reimagine what it would be like if today's internet existed during 1983.
 In addition to providing information about the band, their music, and their iconic world tour of 1984, there's a fictional merch section, a ticket-buying experience for the tour, and even a platform to send fan mail and pre-order their upcoming album, '1984'. While these features are not functional in reality, they simulate the experience of engaging with Van Halen's world as if you were a passionate fan in 1983. Through these interactive elements, the aim is to capture the nostalgia and excitement surrounding Van Halen at the height of their fame and provide a portal to that era.
 
-### 2. User Stories -
+### User Stories -
 1. As a user, I want to know about the band and their history. I expect to find information about the band's formation and significant milestones in their career. Additionally, I would like to learn about the individual band members and their contributions to Van Halen's success.
 
 ![](https://live.staticflickr.com/65535/52982252121_804ffe2a07_w.jpg) ![](https://live.staticflickr.com/65535/52982394459_af4fdb6cbf.jpg) 
@@ -40,7 +40,6 @@ In addition to providing information about the band, their music, and their icon
 3. As a user, I want to connect with Van Halen's online presence. I look forward to finding links to their official social media profiles, such as Facebook and Instagram. This would enable me to stay up-to-date with the band's latest news, announcements, and engage with other fans in the community.
 
 ![](https://live.staticflickr.com/65535/52982630995_05595646b1_n.jpg) ![](https://live.staticflickr.com/65535/52981649497_d753c6344f_h.jpg) 
-
 
 4. As a user, I want to dive deeper into Van Halen's visual content. I expect to find a collection of music videos, pictures of the band, and interviews. These multimedia elements will provide me with a visual and auditory experience, allowing me to further appreciate Van Halen's artistry and stage presence.
 
@@ -64,7 +63,7 @@ In addition to providing information about the band, their music, and their icon
 ![](https://live.staticflickr.com/65535/52982414369_6bcda4665e_z.jpg) ![](https://live.staticflickr.com/65535/52982642880_e7d97ef63e_z.jpg)
                                 ![](https://live.staticflickr.com/65535/52982642885_570f93a909_z.jpg)
 
-### 3. Web Design -
+### Web Design -
 
 #### Color Scheme: 
 The website features a design that is inspired by the aesthetic of the 1980s and a color scheme that is reminiscent of the band's aesthetic.
@@ -72,26 +71,41 @@ The website features a design that is inspired by the aesthetic of the 1980s and
 #### Typography: 
 Lato is the only font used throughout the website. I found this font from drawing inspiration from the font used in the first two album covers for the bands name.
 
-### 4. Wireframes: 
+### Wireframes: 
 
 The site's design and element placement have been illustrated using Balsamiq wireframes, providing a visual representation of the site's appearance.
 
-**Homepage:**    
-![HOMEPAGE](https://live.staticflickr.com/65535/52982016644_8f9255f214_b.jpg)
-**Newspage:**
-![NEWSPAGE](https://live.staticflickr.com/65535/52981873686_6a012b1b57_b.jpg)
-**Tourpage:**
-![TOURPAGE](https://live.staticflickr.com/65535/52982331273_1e33729730_b.jpg)
-**Musicpage:**
-![MUSICPAGE](https://live.staticflickr.com/65535/52981873691_adf429af52_h.jpg)
-**Mediapage:**
-![MEDIAPAGE](https://live.staticflickr.com/65535/52982244760_60aefad16e_h.jpg)  
-**Aboutpage:**
-![ABOUTPAGE](https://live.staticflickr.com/65535/52982244795_81c3dcc1a2_h.jpg)
-**Merchpage:**
-![MERCHPAGE](https://live.staticflickr.com/65535/52981262967_6e757d41f6_b.jpg)
-**Contactpage:**
-![CONTACTPAGE](https://live.staticflickr.com/65535/52982331308_ce5e875324_b.jpg)
+| Homepage: |       |
+| --------- | ----- |
+| ![HOMEPAGE](https://live.staticflickr.com/65535/52982016644_8f9255f214_b.jpg) |       |
+
+| Newspage: |       |
+| --------- | ----- |
+| ![NEWSPAGE](https://live.staticflickr.com/65535/52981873686_6a012b1b57_b.jpg) |       |
+
+| Tourpage: |       |
+| --------- | ----- |
+| ![TOURPAGE](https://live.staticflickr.com/65535/52982331273_1e33729730_b.jpg) |       |
+
+| Musicpage: |       |
+| ---------- | ----- |
+| ![MUSICPAGE](https://live.staticflickr.com/65535/52981873691_adf429af52_h.jpg) |       |
+
+| Mediapage: |       |
+| ---------- | ----- |
+| ![MEDIAPAGE](https://live.staticflickr.com/65535/52982244760_60aefad16e_h.jpg) |       |
+
+| Aboutpage: |       |
+| ---------- | ----- |
+| ![ABOUTPAGE](https://live.staticflickr.com/65535/52982244795_81c3dcc1a2_h.jpg) |       |
+
+| Merchpage: |       |
+| ---------- | ----- |
+| ![MERCHPAGE](https://live.staticflickr.com/65535/52981262967_6e757d41f6_b.jpg) |       |
+
+| Contactpage: |       |
+| ------------ | ----- |
+| ![CONTACTPAGE](https://live.staticflickr.com/65535/52982331308_ce5e875324_b.jpg) |       |
 
 
 ---
@@ -131,6 +145,7 @@ Upon visiting the website, users are greeted with the band's logo and a Youtube 
 * [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) (used for validating the CSS code)
 * [Squoosh](https://squoosh.app/) (Used for image decompression)
 * [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html)(Used to enhance album cover images)
+* [Am I Responsive?](https://ui.dev/amiresponsive)(Used for responsiveness testing)
 
 ---
 
@@ -138,30 +153,37 @@ Upon visiting the website, users are greeted with the band's logo and a Youtube 
 
 I used Lighthouse in Chrome DevTools to analyze the performance, accessibility, and adherence to SEO and Best Practices.
 
-**Homepage:**    
-![HOMEPAGE D](https://live.staticflickr.com/65535/52982156806_1f9127aa5f.jpg)
-![HOMEPAGE M](https://live.staticflickr.com/65535/52981546292_fd2ed39d7b_z.jpg)
-**Newspage:**
-![NEWSPAGE D](https://live.staticflickr.com/65535/52982614763_590ddf5aeb.jpg)
-![NEWSPAGE M](https://live.staticflickr.com/65535/52982298914_2b6df4eed7_z.jpg)
-**Tourpage:**
-![TOURPAGE D](https://live.staticflickr.com/65535/52981546337_c4fb2f5592_w.jpg)
-![TOURPAGE M](https://live.staticflickr.com/65535/52982614753_2dfa399893_z.jpg)
-**Musicpage:**
-![MUSICPAGE D](https://live.staticflickr.com/65535/52982528420_98a426d11c_c.jpg)
-![MUSICPAGE M](https://live.staticflickr.com/65535/52982528435_56602d5303_z.jpg)
-**Mediapage:**
-![MEDIAPAGE D](https://live.staticflickr.com/65535/52982298944_af7ffdaf3f.jpg)  
-![MEDIAPAGE M](https://live.staticflickr.com/65535/52982528405_089c57d19c_b.jpg)
-**Aboutpage:**
-![ABOUTPAGE D](https://live.staticflickr.com/65535/52982299019_861dd0eb72.jpg)
-![ABOUTPAGE M](https://live.staticflickr.com/65535/52982614893_8b735e09c3_c.jpg)
-**Merchpage:**
-![MERCHPAGE D](https://live.staticflickr.com/65535/52981546357_99a989c2bc.jpg)
-![MERCHPAGE M](https://live.staticflickr.com/65535/52982528440_66b1bb7c47_z.jpg)
-**Contactpage:**
-![CONTACTPAGE D](https://live.staticflickr.com/65535/52982528450_4e718b2304_c.jpg)
-![CONTACTPAGE M](https://live.staticflickr.com/65535/52982156871_6e1f2185a0_z.jpg)
+| Homepage: |       |
+| --------- | ----- |
+| ![HOMEPAGE D](https://live.staticflickr.com/65535/52982156806_1f9127aa5f.jpg) | ![HOMEPAGE M](https://live.staticflickr.com/65535/52981546292_fd2ed39d7b_z.jpg) |
+
+| Newspage: |       |
+| --------- | ----- |
+| ![NEWSPAGE D](https://live.staticflickr.com/65535/52982614763_590ddf5aeb.jpg) | ![NEWSPAGE M](https://live.staticflickr.com/65535/52982298914_2b6df4eed7_z.jpg) |
+
+| Tourpage: |       |
+| --------- | ----- |
+| ![TOURPAGE D](https://live.staticflickr.com/65535/52981546337_c4fb2f5592_w.jpg) | ![TOURPAGE M](https://live.staticflickr.com/65535/52982614753_2dfa399893_z.jpg) |
+
+| Musicpage: |       |
+| ---------- | ----- |
+| ![MUSICPAGE D](https://live.staticflickr.com/65535/52982528420_98a426d11c_c.jpg) | ![MUSICPAGE M](https://live.staticflickr.com/65535/52982528435_56602d5303_z.jpg) |
+
+| Mediapage: |       |
+| ---------- | ----- |
+| ![MEDIAPAGE D](https://live.staticflickr.com/65535/52982298944_af7ffdaf3f.jpg) | ![MEDIAPAGE M](https://live.staticflickr.com/65535/52982528405_089c57d19c_b.jpg) |
+
+| Aboutpage: |       |
+| ---------- | ----- |
+| ![ABOUTPAGE D](https://live.staticflickr.com/65535/52982299019_861dd0eb72.jpg) | ![ABOUTPAGE M](https://live.staticflickr.com/65535/52982614893_8b735e09c3_c.jpg) |
+
+| Merchpage: |       |
+| ---------- | ----- |
+| ![MERCHPAGE D](https://live.staticflickr.com/65535/52981546357_99a989c2bc.jpg) | ![MERCHPAGE M](https://live.staticflickr.com/65535/52982528440_66b1bb7c47_z.jpg) |
+
+| Contactpage: |       |
+| ------------ | ----- |
+| ![CONTACTPAGE D](https://live.staticflickr.com/65535/52982528450_4e718b2304_c.jpg) | ![CONTACTPAGE M](https://live.staticflickr.com/65535/52982156871_6e1f2185a0_z.jpg) |
 
 
 ### HTML Validation
@@ -175,15 +197,6 @@ There are some minor format issues with the html code that are brought up in the
 ![CSSValidation](https://live.staticflickr.com/65535/52869579290_fd1c18cf26_z.jpg)
 
 No errors were found.
-
-### Manual Device Testing/Responsive Design Testing
-
-I have carried out manual testing on the following devices to test responsiveness, all links and videos and music tracks and features all worked correctly. The devices were tested on the following:
-
-* Galaxy S10
-* Ipad
-* Tablets
-* Laptops
 
 ### Manual Testing
 
@@ -279,3 +292,4 @@ Pushed the changes to the GitHub repository:
 * [Brett Jordan](https://www.flickr.com/photos/x1brett/27398345319) (Used for Van Halen's 1984 album cover art in News, Music and Contact sections)
 * [The Mighty Van Halen](https://www.themightyvanhalen.net/wp-content/uploads/1984-tourdates.jpg) (Used for 1984 tour poster in Tour and Contact sections)
 * All first 5 album cover images were taken from wikipedia and enhanced with photoshop
+* All images have been credited in html code as well
