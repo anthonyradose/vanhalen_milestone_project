@@ -149,7 +149,16 @@ I have carried out manual testing on the following devices to test responsivenes
 
 ### Manual Testing
 
-Please note that this project is still a work in progress and manual testing has not yet been documented
+**Functionality Testing:**
+   
+1. All navlinks and footer links work on all pages.
+2. The arrow button and YouTube player work on the homepage.
+3. The pre-order link works in the news section.
+4. The buy tickets button works in the tour section.
+5. The purchase vinyl links and Spotify playlists work in the music section.
+6. The photo/videos carousels function properly in the media section.
+7. The buy buttons work in the merch section.
+8. The forms function properly and submit to the desired place.
 
 ---
 
