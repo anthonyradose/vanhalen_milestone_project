@@ -1,25 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+      defer
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      defer
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+      defer
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+      defer
+    />
+    <link href="./assets/css/merch.css" rel="stylesheet" />
+    <title>Van Halen Merch!</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
-    rel="stylesheet"
-  />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
-    integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
-  <link href="./assets/css/merch.css" rel="stylesheet">
-  <title>Van Halen Merch!</title>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" defer></script>
-</head>
-
-<body id="merch-page">
+  <body id="merch-page">
     <!-- Header section -->
     <header>
       <!-- Navigation menu -->
@@ -60,7 +76,11 @@
               class="navbar-nav me-auto mb-2 mb-lg-0 m-auto p-4 w-100"
             >
               <li class="nav-item">
-                <a class="nav-link align-items-baseline" id="home-lg" href="index.html">
+                <a
+                  class="nav-link align-items-baseline"
+                  id="home-lg"
+                  href="index.html"
+                >
                   <!-- Van HalenSVG by CMetalCore  This W3C-unspecified vector image was created with Inkscape ., Public domain, via Wikimedia Commons -->
                   <svg
                     id="home-icon"
@@ -209,10 +229,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link d-flex align-items-baseline"
-                  href="#"
-                >
+                <a class="nav-link d-flex align-items-baseline" href="#">
                   <svg
                     id="merch-icon"
                     version="1.1"
@@ -281,94 +298,121 @@
       </nav>
     </header>
     <!-- Main -->
-  <main class="container-fluid m-0 p-0">
-    <div class="container px-5" id="merch-container">
-      <h1 class="display-1 py-5" id="merch-h1">MERCH</h1>
-      <div class="row px-xl-5">
-        <div class="col-lg-4">
-          <div class="card mb-4 box-shadow" id="merch1">
-            <img class="card-img-top" src="./assets/images/VH-merch1.jpg" alt="T-Shirt">
-            <div class="card-body">
-              <h5 class="card-title">Van Halen T-Shirt</h5>
-              <p class="card-text">Show off your love for Van Halen with this stylish t-shirt!</p>
-              <p class="card-text">$12.91</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://en.wikipedia.org/wiki/Van_Halen" target="_blank" class="btn btn-sm btn-outline-secondary">Buy</a>
-
+    <main class="container-fluid m-0 p-0">
+      <div class="container px-5" id="merch-container">
+        <h1 class="display-1 py-5" id="merch-h1">MERCH</h1>
+        <div class="row px-xl-5">
+          <div class="col-lg-4">
+            <div class="card mb-4 box-shadow" id="merch1">
+              <img
+                class="card-img-top"
+                src="./assets/images/VH-merch1.jpg"
+                alt="T-Shirt"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Van Halen T-Shirt</h5>
+                <p class="card-text">
+                  Show off your love for Van Halen with this stylish t-shirt!
+                </p>
+                <p class="card-text">$12.91</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://en.wikipedia.org/wiki/Van_Halen"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Buy</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card mb-4 box-shadow" id="merch2">
-            <img class="card-img-top"
-              src="./assets/images/VH-merch2.jpg"
-              alt="Hat">
-            <div class="card-body">
-              <h5 class="card-title">Van Halen Hat</h5>
-              <p class="card-text">Stay cool and stylish with this Van Halen hat!</p>
-              <p class="card-text">$7.04</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://en.wikipedia.org/wiki/Van_Halen" target="_blank" class="btn btn-sm btn-outline-secondary">Buy</a>
+          <div class="col-lg-4">
+            <div class="card mb-4 box-shadow" id="merch2">
+              <img
+                class="card-img-top"
+                src="./assets/images/VH-merch2.jpg"
+                alt="Hat"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Van Halen Hat</h5>
+                <p class="card-text">
+                  Stay cool and stylish with this Van Halen hat!
+                </p>
+                <p class="card-text">$7.04</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://en.wikipedia.org/wiki/Van_Halen"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Buy</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card mb-4 box-shadow" id="merch3">
-            <img class="card-img-top"
-              src="./assets/images/VH-merch3.jpg"
-              alt="Keyring">
-            <div class="card-body">
-              <h5 class="card-title">Van Halen Keyring</h5>
-              <p class="card-text">Carry your keys in style with this Van Halen keyring!</p>
-              <p class="card-text">$4.68</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="https://en.wikipedia.org/wiki/Van_Halen" target="_blank" class="btn btn-sm btn-outline-secondary">Buy</a>
+          <div class="col-lg-4">
+            <div class="card mb-4 box-shadow" id="merch3">
+              <img
+                class="card-img-top"
+                src="./assets/images/VH-merch3.jpg"
+                alt="Keyring"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Van Halen Keyring</h5>
+                <p class="card-text">
+                  Carry your keys in style with this Van Halen keyring!
+                </p>
+                <p class="card-text">$4.68</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://en.wikipedia.org/wiki/Van_Halen"
+                      target="_blank"
+                      class="btn btn-sm btn-outline-secondary"
+                      >Buy</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
- <!-- Footer -->
- <footer id="bottom">
-  <a
-    class="footer-link"
-    id="youtube-link"
-    href="https://www.youtube.com/channel/UCfOTTeREY6_1LSW5M0bdG7g"
-    target="_blank"
-    ><i class="bi bi-youtube"></i
-  ></a>
-  <a
-    class="footer-link"
-    id="spotify-link"
-    href="https://open.spotify.com/artist/2cnMpRsOVqtPMfq7YiFE6K"
-    target="_blank"
-    ><i class="bi bi-spotify"></i
-  ></a>
-  <a
-    class="footer-link"
-    id="instagram-link"
-    href="https://www.instagram.com/vanhalen/?hl=en"
-    target="_blank"
-    ><i class="bi bi-instagram"></i
-  ></a>
-  <a
-    class="footer-link"
-    id="facebook-link"
-    href="https://www.facebook.com/VanHalen/"
-    target="_blank"
-    ><i class="bi bi-facebook"></i
-  ></a>
-</footer>
-</body>
-
+    </main>
+    <!-- Footer -->
+    <footer id="bottom">
+      <a
+        class="footer-link"
+        id="youtube-link"
+        href="https://www.youtube.com/channel/UCfOTTeREY6_1LSW5M0bdG7g"
+        target="_blank"
+        ><i class="bi bi-youtube"></i
+      ></a>
+      <a
+        class="footer-link"
+        id="spotify-link"
+        href="https://open.spotify.com/artist/2cnMpRsOVqtPMfq7YiFE6K"
+        target="_blank"
+        ><i class="bi bi-spotify"></i
+      ></a>
+      <a
+        class="footer-link"
+        id="instagram-link"
+        href="https://www.instagram.com/vanhalen/?hl=en"
+        target="_blank"
+        ><i class="bi bi-instagram"></i
+      ></a>
+      <a
+        class="footer-link"
+        id="facebook-link"
+        href="https://www.facebook.com/VanHalen/"
+        target="_blank"
+        ><i class="bi bi-facebook"></i
+      ></a>
+    </footer>
+  </body>
 </html>
