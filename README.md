@@ -1,6 +1,6 @@
 # Van Halen '83
 
-![Van Halen](https://live.staticflickr.com/65535/52869530375_007d5248f1_z.jpg)
+![Van Halen](https://live.staticflickr.com/65535/52982362439_ede009616f_z.jpg)
 
 Welcome to Van Halen '83, a virtual journey back to 1983 where the legendary rock band Van Halen reigns supreme. Step into the world of roaring guitar solos, electrifying stage performances, and timeless hits that continue to resonate with fans today.
 
@@ -180,14 +180,22 @@ I have carried out manual testing on the following devices to test responsivenes
 
 **Functionality Testing:**
    
-1. All navlinks and footer links work on all pages.
-2. The arrow button and YouTube player work on the homepage.
-3. The pre-order link works in the news section.
-4. The buy tickets button works in the tour section.
-5. The purchase vinyl links and Spotify playlists work in the music section.
-6. The photo/videos carousels function properly in the media section.
-7. The buy buttons work in the merch section.
-8. The forms function properly and submit to the desired place.
+1. All navlinks and footer links wre tested and work on all pages.
+2. The arrow button and YouTube player weere tested and work on the homepage.
+3. The pre-order link was tested and works in the news section.
+4. The buy tickets button was tested and works in the tour section.
+5. The purchase vinyl links and Spotify playlists were tested and work in the music section.
+6. The photo/videos carousels were tested and function properly in the media section.
+7. The buy buttons were tested and work in the merch section.
+8. The forms were tested and function properly and submit to the desired places.
+
+**Usability Testing:**
+1. The website's navigation and menu structure are intuitive and easy to understand.
+2. The readability and legibility of the website's is mostly there, but can be improved upon at a later date.
+3. The website is mostly consistent in terms of design elements, layout, and color scheme throughout the different pages but can be improved upon.
+
+**Responsiveness Testing:**
+The website was tested in Chrome DevTools for Bootstrap breakpoints and also with amiresponsive.com. For the most part, it looks great on any screen size or device, but there is still room for improvement, particularly with image sizing on ipad size viewports.
 
 ---
 
