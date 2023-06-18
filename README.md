@@ -30,20 +30,47 @@ In addition to providing information about the band, their music, and their icon
 
 ### 2. User Stories -
 1. As a user, I want to know about the band and their history. I expect to find information about the band's formation and significant milestones in their career. Additionally, I would like to learn about the individual band members and their contributions to Van Halen's success.
+
+![](https://live.staticflickr.com/65535/52982252121_804ffe2a07_w.jpg) ![](https://live.staticflickr.com/65535/52982394459_af4fdb6cbf.jpg) 
+
 2. As a user, I want to explore Van Halen's music and discography. I expect to find a well-organised and easily accessible discography section that lists their albums, along with album cover art and track listings. It would be great to have the ability to listen to song previews or access full tracks through embedded Spotify playlists, allowing me to immerse myself in Van Halen's iconic sound.
+
+![](https://live.staticflickr.com/65535/52982257261_f24b8cd86d_w.jpg) ![](https://live.staticflickr.com/65535/52982257246_2221067abb.jpg) 
+
 3. As a user, I want to connect with Van Halen's online presence. I look forward to finding links to their official social media profiles, such as Facebook and Instagram. This would enable me to stay up-to-date with the band's latest news, announcements, and engage with other fans in the community.
+
+![](https://live.staticflickr.com/65535/52982630995_05595646b1_n.jpg) ![](https://live.staticflickr.com/65535/52981649497_d753c6344f_h.jpg) 
+
+
 4. As a user, I want to dive deeper into Van Halen's visual content. I expect to find a collection of music videos, pictures of the band, and interviews. These multimedia elements will provide me with a visual and auditory experience, allowing me to further appreciate Van Halen's artistry and stage presence.
+
+![](https://live.staticflickr.com/65535/52982263726_97c43ff181_z.jpg) ![](https://live.staticflickr.com/65535/52982634090_38099c501f_z.jpg) 
+                            ![](https://live.staticflickr.com/65535/52981652567_8b4b9a575a.jpg) 
+
 5. As a user, I want to feel immersed in the Van Halen experience of the late 1983 era. I expect the website's design, colour scheme, and layout to reflect the aesthetic and vibe of that time period, transporting me back to the excitement and energy of Van Halen's heyday.
+   
+![](https://live.staticflickr.com/65535/52982409314_d1d6b77555_w.jpg)
+
 6. As a user, I want to explore the tour section that will list their ‘upcoming’ tour in 1984. I expect to find information about the tour dates, venues, and ticket purchasing options. Although the tour is fictional, it would be engaging to experience the anticipation and excitement surrounding a major concert tour.
+
+![](https://live.staticflickr.com/65535/52981658762_815ae122a7_w.jpg)
+
 7. As a user, I want to immerse myself in the fictional merch section and browse through the available merchandise inspired by Van Halen's iconic branding. It would be great to have an option to "purchase" these fictional items for added engagement.
+
+![](https://live.staticflickr.com/65535/52982412654_a9a9127faf.jpg)
+
 8. As a user, I want to feel connected to Van Halen by utilizing the fictional contact section. I expect to find a fan mail form where I can express my admiration for the band, a ticket purchase form to simulate buying tickets for their upcoming tour, and a pre-order form for their anticipated 1984 album. Although these forms are fictional, they can provide a fun and interactive way to engage with the band's imagined activities.
+
+![](https://live.staticflickr.com/65535/52982414369_6bcda4665e_z.jpg) ![](https://live.staticflickr.com/65535/52982642880_e7d97ef63e_z.jpg)
+                                ![](https://live.staticflickr.com/65535/52982642885_570f93a909_z.jpg)
 
 ### 3. Web Design -
 
 #### Color Scheme: 
-The website features a design that is inspired by the aesthetic of the 1980s, with a color scheme that is reminiscent of the band's aesthetic. The layout is clean and easy to navigate, with a simple menu at the top of the page and clear sections for different types of content.
+The website features a design that is inspired by the aesthetic of the 1980s and a color scheme that is reminiscent of the band's aesthetic.
+
 #### Typography: 
-Lato, sans-serif.
+Lato is the only font used throughout the website. I found this font from drawing inspiration from the font used in the first two album covers for the bands name.
 
 ### 4. Wireframes: 
 
@@ -86,24 +113,6 @@ The site's design and element placement have been illustrated using Balsamiq wir
  Website Walkthrough -
 Upon visiting the website, users are greeted with the band's logo and a Youtube video of their new single "Jump", which would have been released at the time. From there, users can navigate to different sections of the website using the menu at the top of the page. The Tour section displays information about the band's 'upcoming world tour' starting in 1984, including the dates and locations of the concerts. The Media section includes photos and videos of the band, showcasing their performance and style. The Music section displays the album covers and includes embedded Spotify playlists, allowing users to listen to the band's music as they browse the website. The Merch section features fictional items for users to buy, such as t-shirts, posters, and hats, all designed with the iconic Van Halen logo. The News section announces the 'upcoming' release of their 1984 album, keeping users up-to-date with the latest news about the band. Finally, the Contact section provides three fictional forms, one for fan mail, one to purchase tickets for the upcoming tour, and the last one to pre-order the album.
 
-### Live Site Images
-
-![](https://live.staticflickr.com/65535/52869531435_09a688e0f5_z.jpg) 
-
-![](https://live.staticflickr.com/65535/52869531555_03f37d92eb_z.jpg)
-
-![](https://live.staticflickr.com/65535/52869588198_0a610c1e70_z.jpg)
-
-![](https://live.staticflickr.com/65535/52868578867_dd4d78be0c_z.jpg)
-
-![](https://live.staticflickr.com/65535/52869149011_a31aa8119b_z.jpg)
-
-![](https://live.staticflickr.com/65535/52869532110_a205904036_z.jpg)
-
-![](https://live.staticflickr.com/65535/52869149741_6224e9f7d5.jpg)  
-
-![](https://live.staticflickr.com/65535/52869533130_57c8dc2784.jpg)  
-
 ---
 
 ## Made with:
@@ -125,7 +134,6 @@ Upon visiting the website, users are greeted with the band's logo and a Youtube 
 ---
 
 ## Testing
-
 
 I used Lighthouse in Chrome DevTools to analyze the performance, accessibility, and adherence to SEO and Best Practices.
 
