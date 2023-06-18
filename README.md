@@ -45,8 +45,27 @@ The website features a design that is inspired by the aesthetic of the 1980s, wi
 #### Typography: 
 Lato, sans-serif.
 
-### 4. Wireframe: 
-Note: Wireframes for this project are not currently available. I am working on creating them and will update the repository as soon as they are ready
+### 4. Wireframes: 
+
+The site's design and element placement have been illustrated using Balsamiq wireframes, providing a visual representation of the site's appearance.
+
+**Homepage:**    
+![HOMEPAGE](https://live.staticflickr.com/65535/52982016644_8f9255f214_b.jpg)
+**Newspage:**
+![NEWSPAGE](https://live.staticflickr.com/65535/52981873686_6a012b1b57_b.jpg)
+**Tourpage:**
+![TOURPAGE](https://live.staticflickr.com/65535/52982331273_1e33729730_b.jpg)
+**Musicpage:**
+![MUSICPAGE](https://live.staticflickr.com/65535/52981873691_adf429af52_h.jpg)
+**Mediapage:**
+![MEDIAPAGE](https://live.staticflickr.com/65535/52982244760_60aefad16e_h.jpg)  
+**Aboutpage:**
+![ABOUTPAGE](https://live.staticflickr.com/65535/52982244795_81c3dcc1a2_h.jpg)
+**Merchpage:**
+![MERCHPAGE](https://live.staticflickr.com/65535/52981262967_6e757d41f6_b.jpg)
+**Contactpage:**
+![CONTACTPAGE](https://live.staticflickr.com/65535/52982331308_ce5e875324_b.jpg)
+
 
 ---
 
