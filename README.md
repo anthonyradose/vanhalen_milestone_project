@@ -130,6 +130,7 @@ Upon visiting the website, users are greeted with the band's logo and a Youtube 
 * [W3C Markup](https://validator.w3.org/) (used for validating the html5 code)
 * [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) (used for validating the CSS code)
 * [Squoosh](https://squoosh.app/) (Used for image decompression)
+* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html)(Used to enhance album cover images)
 
 ---
 
@@ -277,3 +278,4 @@ Pushed the changes to the GitHub repository:
 * [getty](https://www.gettyimages.co.uk/) (For Photo Gallery in Media section, Van Halen and David Lee Roth images in the About section all getty images are credited in the footers of the images themselves)
 * [Brett Jordan](https://www.flickr.com/photos/x1brett/27398345319) (Used for Van Halen's 1984 album cover art in News, Music and Contact sections)
 * [The Mighty Van Halen](https://www.themightyvanhalen.net/wp-content/uploads/1984-tourdates.jpg) (Used for 1984 tour poster in Tour and Contact sections)
+* All first 5 album cover images were taken from wikipedia and enhanced with photoshop
