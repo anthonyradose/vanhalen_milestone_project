@@ -93,66 +93,27 @@ h1 {
   color: white;
   mix-blend-mode: difference;
 }
-#album1-container,
-#album2-container {
+#album1-section,
+#album2-section {
   margin: 3em auto;
 }
-#album1-container {
+#album1-section {
   background: linear-gradient(to top left, white 50%, cyan 50%);
 }
-#album2-container {
+#album2-section {
   background: linear-gradient(to top right, white 50%, black 50%);
 }
-#album3-container {
+#album3-section {
   background: linear-gradient(to top left, white 50%, #ffd700 50%);
 }
-#album4-container {
+#album4-section {
   background: linear-gradient(to top right, white 50%, #8c92ac 50%);
 }
-#album5-container {
+#album5-section {
   background: linear-gradient(to top left, white 50%, #002f6c 50%);
 }
-#album6-container {
+#album6-section {
   background: linear-gradient(to top right, white 50%, #ce1141 50%);
-}
-.music-section {
-  background-color: #f8f9fa;
-  padding: 40px 0;
-}
-
-.music-section h2 {
-  margin-bottom: 20px;
-}
-
-.music-section hr {
-  margin: 40px 0;
-}
-
-.music-section .accordion {
-  margin-top: 20px;
-}
-
-.music-section .card-header {
-  background-color: #fff;
-}
-
-.music-section .card-header button {
-  width: 100%;
-  text-align: left;
-}
-
-.music-section .card-body {
-  background-color: #f8f9fa;
-}
-
-.music-section .img-thumbnail {
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-.music-section ul li {
-  margin-bottom: 10px;
 }
 
 /* Footer: */
