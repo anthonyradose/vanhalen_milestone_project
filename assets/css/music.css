@@ -56,7 +56,8 @@ svg#media-icon {
   margin-right: 0.5rem;
 }
 
-.nav-link:hover span {
+.nav-link:hover span,
+.active {
   text-decoration: underline;
   text-underline-offset: 8px;
 }
@@ -89,7 +90,8 @@ h1 {
   word-spacing: 0.3em;
   text-shadow: -2px -2px 0em #000;
 }
-#diver-down-h2, #vh2-h2{
+#diver-down-h2,
+#vh2-h2 {
   color: white;
   mix-blend-mode: difference;
 }
@@ -217,18 +219,20 @@ h1 {
   #home-icon {
     font-size: 1.3rem;
   }
-  .album-h2, .buy-vinyl-div{
+  .album-h2,
+  .buy-vinyl-div {
     height: 10%;
     margin: 0;
   }
-  img.img-fluid, iframe{
+  img.img-fluid,
+  iframe {
     height: 90%;
   }
 }
-@media(min-width: 992px) and (max-width: 1154px){
-#album-3-h2{
-  font-size: 1.5em;
-}
+@media (min-width: 992px) and (max-width: 1154px) {
+  #album-3-h2 {
+    font-size: 1.5em;
+  }
 }
 @media (min-width: 1200px) {
   #navvy {

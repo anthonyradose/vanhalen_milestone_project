@@ -50,7 +50,7 @@
 svg#media-icon {
   margin-right: 0.5rem;
 }
-.nav-link:hover span {
+.nav-link:hover span, .active span {
   text-decoration: underline;
   text-underline-offset: 8px;
 }
