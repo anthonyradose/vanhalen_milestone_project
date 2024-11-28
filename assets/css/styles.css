@@ -71,9 +71,6 @@ svg#media-icon {
 }
 
 /* Main: */
-#vh-logo {
-  outline: 3px solid black;
-}
 #section1 {
   display: flex;
   flex-direction: column;
