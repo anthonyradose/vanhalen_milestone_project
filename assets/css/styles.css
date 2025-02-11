@@ -84,7 +84,7 @@ svg#media-icon {
   align-items: center;
 }
 #section2 > iframe {
-  height: 40vh;
+  height: 25vh;
   border: 7px solid #ffd700;
   border-radius: 20px;
 }
@@ -199,6 +199,12 @@ h2 {
 
 /* Breakpoints: */
 
+/* Min 425px */
+@media(min-width: 425px) {
+    #section2 > iframe {
+      height: 40vh;
+  }
+}
 /* Min 576px: */
 @media (min-width: 576px) {
 }
