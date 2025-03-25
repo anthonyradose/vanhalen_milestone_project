@@ -82,6 +82,8 @@ main {
 .table {
   margin-bottom: 3em;
   font-weight: normal;
+  font-size: 0.5rem;
+
 }
 h1 {
   display: flex;
@@ -143,6 +145,9 @@ h1 {
 
 /* Breakpoints: */
 @media (min-width: 576px) {
+  .table{
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 768px) {
