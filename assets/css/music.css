@@ -90,6 +90,9 @@ h1 {
   word-spacing: 0.3em;
   text-shadow: -2px -2px 0em #000;
 }
+.buy-vinyl-div a{
+  font-size: 1.3rem;
+}
 #diver-down-h2,
 #vh2-h2 {
   color: white;
@@ -166,7 +169,7 @@ h1 {
   filter: brightness(79%);
 }
 
-/* Breeakpoints: */
+/* Breakpoints: */
 @media screen and (max-width: 767px) {
   .music-section .col-md-6 {
     margin-bottom: 20px;
