@@ -40,9 +40,11 @@
         <div class="container-fluid" id="navvy">
           <div class="nav-item m-5 d-lg-none">
             <a class="nav-link" aria-current="page" href="index.html">
-              <!-- Van HalenSVG by CMetalCore  This W3C-unspecified vector image was created with Inkscape ., Public domain, via Wikimedia Commons -->
+              <!-- Van HalenSVG by CMetalCore  This W3C-unspecified vector image was created with Inkscape ., Public domain, via Wikimedia Commons -->
               <svg
                 id="home-mobile-icon"
+                role="img"
+                aria-label="Van Halen Logo"
                 xmlns="http://www.w3.org/2000/svg"
                 width="3em"
                 height="3em"
@@ -78,9 +80,11 @@
                   id="home-lg"
                   href="index.html"
                 >
-                <!-- Van HalenSVG by CMetalCore  This W3C-unspecified vector image was created with Inkscape ., Public domain, via Wikimedia Commons -->
+                <!-- Van HalenSVG by CMetalCore  This W3C-unspecified vector image was created with Inkscape ., Public domain, via Wikimedia Commons -->
                   <svg
                     id="home-icon"
+                    role="img"
+                    aria-label="Van Halen Logo"
                     xmlns="http://www.w3.org/2000/svg"
                     width="3em"
                     height="3em"
@@ -99,7 +103,7 @@
                   class="nav-link d-flex align-items-baseline"
                   href="news.html"
                 >
-                  <i class="bi bi-megaphone me-2"></i>
+                  <i class="bi bi-megaphone me-2" role="img" aria-label="News icon"></i>
                   <span>NEWS</span>
                 </a>
               </li>
@@ -108,7 +112,7 @@
                   class="nav-link d-flex align-items-baseline"
                   href="tour.html"
                 >
-                  <i class="bi bi-globe me-2"></i>
+                  <i class="bi bi-globe me-2" role="img" aria-label="Tour icon"></i>
                   <span>TOUR</span>
                 </a>
               </li>
@@ -119,6 +123,8 @@
                 >
                   <svg
                     id="guitar-icon"
+                    role="img"
+                    aria-label="Guitar icon"
                     version="1.1"
                     width="1em"
                     height="1em"
@@ -176,7 +182,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link d-flex align-items-baseline active" href="#">
-                  <i class="bi bi-film me-2"></i>
+                  <i class="bi bi-film me-2" role="img" aria-label="Media icon"></i>
                   <span>MEDIA</span>
                 </a>
               </li>
@@ -187,6 +193,8 @@
                 >
                   <svg
                     id="about-icon"
+                    role="img"
+                    aria-label="About icon"
                     version="1.1"
                     width="1em"
                     height="1em"
@@ -364,7 +372,7 @@
               id="videos-container"
             >
               <h3 class="mt-5 mt-lg-0">MUSIC VIDEOS</h3>
-              <div id="carousel-videos" class="carousel slide my-5">
+              <div id="carousel-videos" class="carousel slide my-5" data-bs-ride="carousel" role="region" aria-label="Van Halen videos carousel">
                 <div class="carousel-indicators">
                   <button
                     type="button"
@@ -399,70 +407,64 @@
                     aria-label="Slide 5"
                   ></button>
                 </div>
-                <div class="carousel-inner" id="videos-carousel">
-                  <div class="carousel-item active">
+                <div class="carousel-inner" id="videos-carousel" role="list">
+                  <div class="carousel-item active" role="listitem">
                     <iframe
                       src="https://www.youtube.com/embed/i5txwFv-zYM"
                       class="d-block w-100"
                       allowfullscreen
                       loading="lazy"
+                      title="Van Halen - Jump (Official Music Video)"
+                      aria-label="Van Halen - Jump music video"
                     ></iframe>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" role="listitem">
                     <iframe
                       src="https://www.youtube.com/embed/llfjDUB66Z4"
                       class="d-block w-100"
                       allowfullscreen
                       loading="lazy"
+                      title="Van Halen - Panama (Official Music Video)"
+                      aria-label="Van Halen - Panama music video"
                     ></iframe>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" role="listitem">
                     <iframe
                       src="https://www.youtube.com/embed/11mBDT5mpdw"
                       class="d-block w-100"
                       allowfullscreen
                       loading="lazy"
+                      title="Van Halen - Hot For Teacher (Official Music Video)"
+                      aria-label="Van Halen - Hot For Teacher music video"
                     ></iframe>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" role="listitem">
                     <iframe
                       src="https://www.youtube.com/embed/ojNrj-sWfpk"
                       class="d-block w-100"
                       allowfullscreen
                       loading="lazy"
+                      title="Van Halen - Runnin' With The Devil (Official Music Video)"
+                      aria-label="Van Halen - Runnin' With The Devil music video"
                     ></iframe>
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" role="listitem">
                     <iframe
                       src="https://www.youtube.com/embed/FWQRDI7mTyw"
                       class="d-block w-100"
                       allowfullscreen
                       loading="lazy"
+                      title="Van Halen - Ain't Talkin' 'Bout Love (Official Music Video)"
+                      aria-label="Van Halen - Ain't Talkin' 'Bout Love music video"
                     ></iframe>
                   </div>
                 </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carousel-videos"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-videos" data-bs-slide="prev" aria-label="Previous video">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carousel-videos"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-videos" data-bs-slide="next" aria-label="Next video">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
